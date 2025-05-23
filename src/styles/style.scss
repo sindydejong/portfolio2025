@@ -1,0 +1,32 @@
+@import '_variables';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+    overscroll-behavior: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "peckham-press", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+      font-family: "peckham-press", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+p {
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
