@@ -3,12 +3,12 @@
       <h2>Choose your character</h2>
 
       <CharacterSlider/>
-      
+
 </template>
 
 
 <script setup lang="ts">
-import CharacterSlider from './CharacterSlider.vue';
+import CharacterSlider from './Slider/CharacterSlider.vue';
 </script>
 
 <style lang="scss">
