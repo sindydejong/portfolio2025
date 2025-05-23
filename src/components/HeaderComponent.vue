@@ -69,7 +69,7 @@ h1 {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: #090e6b;
+  background-color: $color-main;
   top: 0;
   left: 0;
   right: 0;

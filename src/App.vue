@@ -41,7 +41,7 @@ import FooterComponent from './components/FooterComponent.vue'
 
 .header {
   grid-area: header;
-  background-color: #333;
+  background-color: $color-main;
   color: white;
   height: 70px;
   padding: 1rem;
@@ -52,13 +52,13 @@ import FooterComponent from './components/FooterComponent.vue'
 
 .main {
   grid-area: main;
-  background-color: #f4f4f4;
+  background-color: $color-background;
   padding: 1rem;
 }
 
 .footer {
   grid-area: footer;
-  background-color: #333;
+  background-color: $color-main;
   color: white;
   padding: 1rem;
   height: auto;
