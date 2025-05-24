@@ -37,31 +37,35 @@ import FooterComponent from './components/FooterComponent.vue'
     "footer";
   min-height: 100vh;
   margin: 0;
+    background-color: $color-background;
+    
 }
 
 .header {
   grid-area: header;
-  background-color: $color-main;
-  color: white;
-  height: 70px;
-  padding: 1rem;
+  background-color: rgba(white, 0.0);
+  height: 60px;
   top: 0;
   position: sticky;
-
+  z-index: 1000;
+  display: flex;
+  align-items: bottom;
+  
+  
 }
 
 .main {
   grid-area: main;
   background-color: $color-background;
-  padding: 1rem;
+  
 }
 
 .footer {
   grid-area: footer;
   background-color: $color-main;
   color: white;
-  padding: 1rem;
   height: auto;
+  padding: 3em 5em 2em 5em;
   
 }
 

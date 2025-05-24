@@ -9,12 +9,16 @@
     <div class="hero-gif">
             <img src="/assets/Animatie_zwaaien_final.gif" alt="Animated showcase" />
     </div>
+
+    <GameButton @click="scrollToNextSection" />
     
-    <button class="start-button" @click="scrollToNextSection" >Start</button>
+    <!-- <button class="start-button" @click="scrollToNextSection" >Start</button> -->
     </template>
 
 
 <script setup lang="ts">
+import GameButton from '../GameButton.vue'
+
 function scrollToNextSection() {
   const nextSection = document.querySelector('.characters')
   if (nextSection) {
@@ -28,7 +32,7 @@ function scrollToNextSection() {
 @import 'src/styles/style.scss';
 
 .hero {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,10 +40,11 @@ function scrollToNextSection() {
 
 .hero-text {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 0px;
   h1 {
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 10px;
+    color: $color-interaction;
     h2 {
       font-size: 20px;
       font-family: 'montserrat', sans-serif;

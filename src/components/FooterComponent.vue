@@ -42,11 +42,13 @@
 </template>
 
 <style lang="scss" scoped>
+@import '../styles/style.scss';
 
 footer {
 
   h2 {
     margin-left: 0.5em;
+      font-family: "peckham-press", sans-serif;
   }
 
   ul {

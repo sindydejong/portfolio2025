@@ -11,16 +11,14 @@
 import CharacterSlider from './Slider/CharacterSlider.vue';
 </script>
 
-<style lang="scss">
-@import 'src/styles/style.scss';
+<style lang="scss" scoped>
+@import '/src/styles/style.scss';
 
 
+h2 {
+  color: $color-interaction;
+font-family: "peckham-press", sans-serif;
 
-.characters {
-  min-height: calc(100vh - 70px);
-  background-color: #bcbcbc;
-  h2 {
-    padding-top: 100px;
-  }
 }
+
 </style>

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Sindy de Jong</h1>
+  <div class="header-elements">
+    <h1>Sindy</h1>
 
     <input id="toggle" type="checkbox" />
     <label for="toggle" class="hamburger">
@@ -24,6 +24,16 @@
 <style scoped lang="scss">
 @import '../styles/style.scss';
 
+.header-elements {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
 body {
   background: #336193;
   color: #6ecddd;
@@ -38,7 +48,8 @@ body {
 h1 {
   letter-spacing: 1px;
   word-spacing: 0.15em;
-  font-size: 22px;
+  font-size: 30px;
+  color: $color-main;
 }
 
 #toggle {
