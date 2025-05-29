@@ -1,6 +1,6 @@
 <template>
 
-      <h2>Choose your character</h2>
+      <h2> My different sides</h2>
 
       <CharacterSlider/>
 
@@ -18,6 +18,9 @@ import CharacterSlider from './Slider/CharacterSlider.vue';
 h2 {
   color: $color-interaction;
 font-family: "peckham-press", sans-serif;
+text-align: center;
+margin-bottom: 10px;
+font-size: 35px;
 
 }
 

@@ -36,7 +36,7 @@
 
 body {
   background: #336193;
-  color: #6ecddd;
+  color: $color-interaction;
   font-family: 'Bebas', sans-serif;
   text-align: center;
   max-width: 100%;
@@ -49,7 +49,7 @@ h1 {
   letter-spacing: 1px;
   word-spacing: 0.15em;
   font-size: 30px;
-  color: $color-main;
+  color: white;
 }
 
 #toggle {
@@ -64,7 +64,10 @@ h1 {
   height: 45px;
   z-index: 5;
   cursor: pointer;
-}
+   &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}}
 
 .hamburger div {
   position: relative;
@@ -74,6 +77,7 @@ h1 {
   background-color: #f8982b;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
+ 
 }
 
 .nav {
@@ -117,12 +121,15 @@ nav {
 nav a {
   position: relative;
   text-decoration: none;
-  color: #6ecddd;
-  font-size: 4em;
+  color: $color-interaction;
+  font-size: 4.5em;
   display: inline-block;
   margin-top: 1.25em;
   transition: color 0.2s ease-in-out;
   letter-spacing: 1px;
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 
 nav a:before {

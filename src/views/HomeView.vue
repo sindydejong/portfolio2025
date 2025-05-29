@@ -19,11 +19,15 @@ import CharacterComponent from '../components/HomeView/CharacterComponent.vue'
 <style lang="scss" >
 @import '../styles/style.scss';
 
+
+
 .characters {
   // min-height: calc(100vh - 60px);
     min-height: 100vh;
     background-color: $color-main;
     padding: 2em 5em 2em 5em;
+    border-top: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
 </style>

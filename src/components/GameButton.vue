@@ -1,7 +1,7 @@
 <template>
 <div ontouchstart="">
   <div class="button">
-    <a href="#">Start</a>
+    <a href="#">Get to know me </a>
   </div>
 </div>
 </template>
@@ -25,7 +25,7 @@
   background-color:#FFA12B;
   display:block;
   position:relative;
-  padding:20px 30px;
+  padding:15px 30px;
   border-radius: 5px;
   
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

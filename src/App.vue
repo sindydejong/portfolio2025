@@ -6,11 +6,12 @@ import FooterComponent from './components/FooterComponent.vue'
 </script>
 
 <template>
+    <div class="grain-bg"></div>
   <div class="shell">
     <div class="header">
       <HeaderComponent/>
     </div>
-    <div class="main">
+    <div class="main ">
       <RouterView />
       </div>
       <div class="footer">
@@ -25,6 +26,7 @@ import FooterComponent from './components/FooterComponent.vue'
 
   body{
     margin: 0;
+    cursor: url("cursor.png"), auto;
   }
   
 .shell {
@@ -50,22 +52,42 @@ import FooterComponent from './components/FooterComponent.vue'
   z-index: 1000;
   display: flex;
   align-items: bottom;
+  z-index: 2;
   
   
 }
 
 .main {
   grid-area: main;
-  background-color: $color-background;
+  background-color: none;
+    z-index: 1;
   
+}
+
+
+.grain-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, $color-main 5%,#f8982b 40%,#fdb25c 50%, #f8982b 60%, $color-main 95%),
+    url('/assets/grainy.jpeg');
+  // background-blend-mode:overlay;
+  background-size: cover, cover;
+  background-repeat: no-repeat, repeat;
+  opacity: 1;
 }
 
 .footer {
   grid-area: footer;
-  background-color: $color-main;
+  background-color: none;
   color: white;
   height: auto;
   padding: 3em 5em 2em 5em;
+  z-index: 1;
   
 }
 
