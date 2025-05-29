@@ -64,11 +64,12 @@ function scrollToNextSection() {
   color: $color-main;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 500;
   cursor: pointer;
-  border-radius: 5px;
-  margin-top: 0px;
+  border-radius: 10px;
   display: block;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
   animation: floatY 2s ease-in-out infinite;

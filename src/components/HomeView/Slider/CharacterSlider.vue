@@ -24,24 +24,27 @@ import CharacterCard from './CharacterCard.vue'
 
 const characters = [
   {
+    image: '/assets/Animatie_penflip2_sneller.gif',
     title: 'THE DESIGNER',
-    description: 'As a designer I like to stand out by doing fun things',
-    skills: ['Ai', 'Ps', 'Xd', 'Figma'],
+    description: 'As a designer I like to stand out by making functional and fun designs',
+    skills: ['AI', 'PS', 'XD', 'Figma'],
     project: 'Magic 8-ball: Interactieve applicatie JAVASCRIPT',
     button: 'More design projects'
   },
   {
+    image: '/assets/Animatie_balans.gif',
     title: 'THE FRONT-ENDER',
-    description: 'As a designer I like to stand out by doing fun things',
-    skills: ['Ai', 'Ps', 'Xd', 'Figma'],
+    description: 'I enjoy bringing designs to life with code, focusing on user experience',
+    skills: ['HTML', 'CSS', 'JS', 'VUE'],
     project: 'Magic 8-ball: Interactieve applicatie JAVASCRIPT',
     button: 'More front-end projects'
   },
   {
+    image: '/assets/Animatie_zwaaien_final.gif',
     title: 'THE PERSON',
-    description: 'As a designer I like to stand out by doing fun things',
-    skills: ['Ai', 'Ps', 'Xd', 'Figma'],
-    project: 'red hot chili peppers road trippin’',
+    description: 'I love to keep learning and exploring new things',
+    skills: ['Music', 'Gaming', 'Beer'],
+    project: 'Aha - Take On Me (everything 80s really)',
     button: 'More about me'
   }
 ]
@@ -93,6 +96,7 @@ const sliderStyle = computed(() => {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
+  height: 100%;
 }
 .slider-inner {
   display: flex;

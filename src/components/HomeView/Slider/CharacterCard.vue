@@ -1,9 +1,12 @@
 <template>
   <div class="character-card" :class="{ active }">
-    <!-- Replace with your character image/illustration -->
-    <div class="character-img"></div>
     <h3>{{ character.title }}</h3>
-    <p>{{ character.description }}</p>
+    <div class="character-img">
+     <img v-if="character.image" :src="character.image" alt="Character Image" />
+    </div>
+      <div class="character-description">
+    <p>"{{ character.description }}"</p>
+  </div>
     <div class="skills">
       <span v-for="skill in character.skills" :key="skill">{{ skill }}</span>
     </div>
@@ -28,23 +31,36 @@ defineProps<{
 .character-card {
   background: #f7f6f6;
   border-radius: 28px;
-  padding: 2rem 1.5rem;
+  padding: 1.5rem;
   margin: 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-width: 320px;
   max-width: 350px;
+
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   transition: box-shadow 0.2s;
 }
 .character-img {
-  width: 100px;
-  height: 160px;
-  background: #ccc;
+  width: auto;
+  height: 200px;
+  // background: #ccc;
   border-radius: 16px;
-  margin-bottom: 1rem;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
+
+.character-description{
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
 h3 {
   color: #2a4cff;
   font-family: "peckham-press", sans-serif;
@@ -72,14 +88,14 @@ h3 {
     margin-bottom: 0.3em;
     font-weight: 700;
     color: #222;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     text-align: left;
   }
   .project-box {
     background: #e0e0e0;
     border-radius: 8px;
     padding: 1em;
-    font-size: 1.1em;
+    font-size: 1rem;
     color: #222;
     text-align: left;
   }
