@@ -1,25 +1,32 @@
 <template>
   <div class="header-elements">
     <h1>Sindy</h1>
-
-    <input id="toggle" type="checkbox" />
+    <input id="toggle" type="checkbox" ref="toggle" />
     <label for="toggle" class="hamburger">
       <div class="top-bun"></div>
       <div class="meat"></div>
       <div class="bottom-bun"></div>
     </label>
-
     <div class="nav">
       <div class="nav-wrapper">
         <nav>
-          <router-link to="/">HOME</router-link><br />
-          <router-link to="/about">PROJECTS</router-link><br />
-          <router-link to="/contact">ABOUT</router-link>
+          <router-link to="/" @click="closeNav">HOME</router-link><br />
+          <router-link to="/projects" @click="closeNav">PROJECTS</router-link><br />
+          <router-link to="/about" @click="closeNav">ABOUT</router-link>
         </nav>
       </div>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { RouterLink } from 'vue-router'
+import { ref } from 'vue'
+const toggle = ref<HTMLInputElement | null>(null)
+function closeNav() {
+  if (toggle.value) toggle.value.checked = false
+}
+</script>
 
 <style scoped lang="scss">
 @import '../styles/style.scss';
@@ -64,10 +71,11 @@ h1 {
   height: 45px;
   z-index: 5;
   cursor: pointer;
-   &:hover {
+  &:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
-}}
+  }
+}
 
 .hamburger div {
   position: relative;
@@ -77,7 +85,6 @@ h1 {
   background-color: #f8982b;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
- 
 }
 
 .nav {

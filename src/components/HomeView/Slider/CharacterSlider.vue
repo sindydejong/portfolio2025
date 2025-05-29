@@ -90,6 +90,7 @@ const sliderStyle = computed(() => {
 </script>
 
 <style scoped lang="scss">
+@import '../../../styles/style.scss';
 .character-slider {
   position: relative;
   overflow: hidden;

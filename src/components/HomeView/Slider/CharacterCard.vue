@@ -28,6 +28,7 @@ defineProps<{
 </script>
 
 <style scoped lang="scss">
+@import '../../../styles/style.scss';
 .character-card {
   background: #f7f6f6;
   border-radius: 28px;
