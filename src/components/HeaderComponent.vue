@@ -1,6 +1,6 @@
 <template>
   <div class="header-elements">
-    <h1>Sindy</h1>
+    <h1> <router-link to="/">Sindy</router-link></h1>
     <input id="toggle" type="checkbox" ref="toggle" />
     <label for="toggle" class="hamburger">
       <div class="top-bun"></div>
@@ -53,10 +53,18 @@ body {
 }
 
 h1 {
+    &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+h1 a{
   letter-spacing: 1px;
   word-spacing: 0.15em;
   font-size: 30px;
-  color: white;
+  color: $color-interaction;
+  text-decoration: none;
 }
 
 #toggle {
