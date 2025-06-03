@@ -44,7 +44,7 @@ const characters = [
     title: 'THE PERSON',
     description: 'I love to keep learning and exploring new things',
     skills: ['Music', 'Gaming', 'Beer'],
-    project: 'Aha - Take On Me (everything 80s really)',
+    project: 'Aha - Take On Me  ... everything 80s really!',
     button: 'More about me'
   }
 ]

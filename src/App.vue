@@ -83,12 +83,11 @@ import FooterComponent from './components/FooterComponent.vue'
 
 .footer {
   grid-area: footer;
-  background-color: none;
+  background-color: $color-interaction;
   color: white;
-  height: auto;
+  height: 100vh;
   padding: 3em 5em 2em 5em;
   z-index: 1;
-  
 }
 
 </style>
