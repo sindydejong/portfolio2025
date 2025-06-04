@@ -9,7 +9,7 @@
             <p>{{ project.title }}</p>
           </li>
           <li>
-            <p>{{ project.subtitle }}</p>
+            <p>{{ project.category }}</p>
           </li>
         </ul>
       </article>

@@ -4,7 +4,7 @@ export interface Project {
   video?: string
   video2?: string
   title: string
-  subtitle: string
+  category: string
   hoofdzaak: string
   vak: string
   duur: string
@@ -18,10 +18,10 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: 'red_hot_chili_peppers',
-    image: './assets/images/rhcp.webp',
+    image: '/assets/images/rhcp.webp',
     video: '',
     title: 'Red Hot Chili Peppers: Screenreader friendly',
-    subtitle: 'FRONT-END',
+    category: 'FRONT-END',
     hoofdzaak: 'Front-end development, toegankelijkheid en responsiveness',
     vak: 'Front-end development',
     duur: '6 weken',
@@ -59,7 +59,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     image: './assets/images/8ball.webp',
     video: 'https://www.youtube-nocookie.com/embed/p1J3UeUW74w?si=Rty6eYxkpXvkMucj',
     title: 'Magic 8-Ball: interactieve applicatie',
-    subtitle: 'JAVASCRIPT',
+    category: 'JAVASCRIPT',
     hoofdzaak: 'Front-end development, interactie design',
     vak: 'Inleiding programmeren',
     duur: '6 weken',
@@ -77,7 +77,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     video: 'https://www.youtube-nocookie.com/embed/hzGr8m0BfvA?si=ZYdhdQEDsgymztoW"',
     video2: 'https://www.youtube-nocookie.com/embed/A61T92TfQ68?si=-vf6280KcGcaf2O8',
     title: 'JamTies: Muziekaal interactief spel',
-    subtitle: 'DESIGN',
+    category: 'DESIGN',
     hoofdzaak: 'De wereld verbeteren door mensen met elkaar te verbinden met behulp van muziek',
     vak: 'Passie project',
     duur: '3 weken',

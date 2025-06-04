@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import GameButton from '../GameButton.vue'
+// import GameButton from '../GameButton.vue'
 
 function scrollToNextSection() {
   const nextSection = document.querySelector('.characters')

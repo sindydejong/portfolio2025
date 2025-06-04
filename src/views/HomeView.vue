@@ -26,8 +26,8 @@ import CharacterComponent from '../components/HomeView/CharacterComponent.vue'
     min-height: 100vh;
     background-color: $color-main;
     padding: 2em 5em 2em 5em;
-    border-top: 1px solid white;
-    border-bottom: 2px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
 }
 
 </style>
