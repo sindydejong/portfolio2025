@@ -1,10 +1,12 @@
 <template>
   <div class="character-slider">
-    <div class="slider-inner"
-         :style="sliderStyle"
-         @touchstart="onTouchStart"
-         @touchmove="onTouchMove"
-         @touchend="onTouchEnd">
+    <div
+      class="slider-inner"
+      :style="sliderStyle"
+      @touchstart="onTouchStart"
+      @touchmove="onTouchMove"
+      @touchend="onTouchEnd"
+    >
       <CharacterCard
         v-for="(character, i) in characters"
         :key="character.title"
@@ -29,7 +31,7 @@ const characters = [
     description: 'As a designer I like to stand out by making functional and fun designs',
     skills: ['AI', 'PS', 'XD', 'Figma'],
     project: 'Magic 8-ball: Interactieve applicatie JAVASCRIPT',
-    button: 'More design projects'
+    buttonText: 'More design projects'
   },
   {
     image: '/assets/Animatie_balans.gif',
@@ -37,7 +39,7 @@ const characters = [
     description: 'I enjoy bringing designs to life with code, focusing on user experience',
     skills: ['HTML', 'CSS', 'JS', 'VUE'],
     project: 'Magic 8-ball: Interactieve applicatie JAVASCRIPT',
-    button: 'More front-end projects'
+    buttonText: 'More front-end projects'
   },
   {
     image: '/assets/Animatie_zwaaien_final.gif',
@@ -45,7 +47,7 @@ const characters = [
     description: 'I love to keep learning and exploring new things',
     skills: ['Music', 'Gaming', 'Beer'],
     project: 'Aha - Take On Me  ... everything 80s really!',
-    button: 'More about me'
+    buttonText: 'More about me'
   }
 ]
 
@@ -125,8 +127,12 @@ const sliderStyle = computed(() => {
     z-index: 2;
     cursor: pointer;
   }
-  .arrow.left { left: 10px; }
-  .arrow.right { right: 10px; }
+  .arrow.left {
+    left: 10px;
+  }
+  .arrow.right {
+    right: 10px;
+  }
 }
 @media (min-width: 900px) {
   .slider-inner {
@@ -139,6 +145,8 @@ const sliderStyle = computed(() => {
     min-width: 320px;
     max-width: 350px;
   }
-  .arrow { display: none; }
+  .arrow {
+    display: none;
+  }
 }
 </style>

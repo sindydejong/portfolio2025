@@ -16,7 +16,7 @@
         <strong v-if="character.title === 'THE FRONT-ENDER'"> Favorite front-end project </strong>
       <div class="project-box">{{ character.project }}</div>
     </div>
-    <button class="card-btn">{{ character.button }}</button>
+    <button class="card-btn">{{ character.buttonText }}</button>
   </div>
 </template>
 
