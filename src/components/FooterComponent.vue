@@ -1,7 +1,7 @@
 <template>
     <footer>
 
-  <h1 id="contact"> Contact me! </h1>
+  <h1 id="contact"> Let's Work Together! </h1>
 
 			<ul>
 				<li> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 38 30" fill="#090e6b">
@@ -11,14 +11,14 @@
 					</svg>
 					<a href="mailto:sindymdejong@gmail.com"> <strong>sindymdejong@gmail.com</strong> </a>
 				</li>
-				<li>
+				<!-- <li>
 					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 38 38" fill="#090e6b">
 						<path
 							d="M37.4775 28.3271C37.1432 30.8678 35.8955 33.1999 33.9673 34.8879C32.0392 36.5758 29.5626 37.5042 27 37.4996C12.1125 37.4996 1.69662e-05 25.3871 1.69662e-05 10.4996C-0.00457675 7.93704 0.923805 5.46041 2.61177 3.5323C4.29973 1.60419 6.63184 0.356446 9.17252 0.0221206C9.81499 -0.0563277 10.4656 0.0751116 11.0272 0.396818C11.5889 0.718524 12.0314 1.21324 12.2888 1.80712L16.2488 10.6477V10.6702C16.4458 11.1248 16.5272 11.6212 16.4856 12.1149C16.4441 12.6086 16.2809 13.0843 16.0106 13.4996C15.9769 13.5502 15.9413 13.5971 15.9038 13.644L12 18.2715C13.4044 21.1252 16.3894 24.084 19.2806 25.4921L23.8444 21.609C23.8892 21.5713 23.9361 21.5362 23.985 21.504C24.3999 21.2273 24.8773 21.0583 25.374 21.0125C25.8706 20.9667 26.3708 21.0454 26.8294 21.2415L26.8538 21.2527L35.6869 25.2109C36.2818 25.4673 36.7777 25.9095 37.1005 26.4712C37.4233 27.0329 37.5555 27.684 37.4775 28.3271Z"
 							fill="" />
 					</svg>
 					<a href="tel:0646854712"> <strong>0646854712</strong> </a>
-				</li>
+				</li> -->
 				<li>
 					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 37 38" fill="#090e6b">
 						<path
@@ -37,6 +37,8 @@
 
 			</ul>
 
+          <img class="gif" src="/assets/pc-coding_2.gif" alt="Animated showcase" />
+
 
     </footer>
 </template>
@@ -51,18 +53,22 @@ flex-direction: column;
 
   h1 {
       font-family: "peckham-press", sans-serif;
-      margin-bottom: 0.5em;
+      margin-bottom: 0em;
+      font-size: 100px;
   }
 
   ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 1em;
 
     li {
       margin: 1em;
       display: flex;
       align-items: center;
+      background-color: white;
+      padding: 1em;
+      border-radius: 10px;
 
       a {
         font-family: 'montserrat', sans-serif;
@@ -76,15 +82,21 @@ flex-direction: column;
       }
 
       strong {
-        color: white;
+        color: black;
         text-decoration: none;
 
         &:hover {
-          color: blue;
+          color: $color-interaction;
         }
       }
     }
   }
+
+.gif {
+  width: auto;
+  height: 200px;
+}
+
 }
 
 </style>
