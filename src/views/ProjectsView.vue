@@ -21,12 +21,24 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { projects } from '@/data/projects'
 import ProjectCard from '@/components/ProjectCardItem.vue'
+import { useRoute } from 'vue-router'
+
+
 
 // Gekozen categorie, standaard 'All'
+const route = useRoute()
 const selectedCategory = ref<'All' | 'Front-End' | 'Design'>('All')
+
+// Zet de categorie op basis van de query bij eerste render
+onMounted(() => {
+  const queryCategory = route.query.category as string
+  if (queryCategory === 'Front-End' || queryCategory === 'Design') {
+    selectedCategory.value = queryCategory
+  }
+})
 
 // Filter logica
 const filteredProjects = computed(() => {

@@ -16,15 +16,34 @@
         <strong v-if="character.title === 'THE FRONT-ENDER'"> Favorite front-end project </strong>
       <div class="project-box">{{ character.project }}</div>
     </div>
-    <button class="card-btn">{{ character.buttonText }}</button>
+<button class="card-btn" @click="goToProjects">{{ character.buttonText }}</button>
   </div>
 </template>
 
 <script setup lang="ts">
-defineProps<{
+
+import { useRouter } from 'vue-router'
+
+const props = defineProps<{
   character: any,
   active?: boolean
 }>()
+
+const router = useRouter()
+
+function goToProjects() {
+  const text = props.character.buttonText.toLowerCase()
+
+  if (text.includes('design')) {
+    router.push({ name: 'projects', query: { category: 'Design' } })
+  } else if (text.includes('front-end')) {
+    router.push({ name: 'projects', query: { category: 'Front-End' } })
+  } else if (text.includes('about me')) {
+    router.push({ name: 'about' })
+  } else {
+    router.push({ name: 'projects', query: { category: 'All' } })
+  }
+}
 </script>
 
 <style scoped lang="scss">
