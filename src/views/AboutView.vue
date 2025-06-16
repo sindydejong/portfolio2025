@@ -9,8 +9,8 @@
 
 
 <section> 
-    <h2>As a designer </h2>
-    <p>I am a passionate developer with a love for creating interactive and engaging web applications. My journey in tech started with a fascination for design, which has evolved into a found love  for webdesign combined with front-end development.</p>    
+    <h2> My vision </h2>
+    <p>I'm a creative front-end developer with a love for design that works for everyone. I believe in building clear, well-functioning web experiences that not only feel good to use, but also do good. To me, design isn't just about how something looks, but how it includes. I care deeply about creating ethical and inclusive digital spaces where people feel welcome and represented. I like combining solid UX and clean code with a playful touch, because the web can (and should) be a little fun too.</p>    
 </section>
 
 <section class="hobbies">
