@@ -388,9 +388,9 @@ ul {
 }
 
 @media screen and (min-width: 1000px) {
-  h1 {
-    // width: 90vw;
-  }
+  // h1 {
+  //   width: 90vw;
+  // }
 
   section {
     // width: 70vw;
