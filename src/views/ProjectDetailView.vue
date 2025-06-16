@@ -22,8 +22,17 @@ const project = projects.find((proj) => proj.name === props.name) || {
   datum: '',
   skills: [] as string[],
   opdracht: '',
+  proces: '',
+  proces_img1: '',
+  proces_img1_beschrijving: '',
+  proces_img2: '',
+  proces_img2_beschrijving: '',
+  proces_img3: '',
+  proces_img3_beschrijving: '',
+  proces_video: '',
   eindproduct: '',
-  eindproduct_link: ''
+  eindproduct_link: '',
+  eindproduct_img: '',
 }
 
 console.log('Props:', props)
@@ -32,6 +41,7 @@ console.log('Gevonden project:', project)
 const [titleMain, titleSub] = project.title.split(/:(.+)/).map((s) => s.trim())
 
 const sanitizedOpdracht = computed(() => DOMPurify.sanitize(project.opdracht))
+const sanitizedProces = computed(() => DOMPurify.sanitize(project.proces || ''))
 const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindproduct))
 </script>
 
@@ -83,6 +93,45 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
 
           <div v-html="sanitizedOpdracht"></div>
           <!-- <p> <div v-html="project.opdracht"> </div> </p> -->
+
+
+        </section>
+
+          <section v-if="project.proces || project.proces_img1 || project.proces_img2 || project.proces_img3">
+          <h2>Proces</h2>
+
+          <div v-html="sanitizedProces"></div>
+          <!-- <p> <div v-html="project.opdracht"> </div> </p> -->
+
+<div class="proces-images" v-if="project.proces_img1 || project.proces_img2 || project.proces_img3">
+            <div v-if="project.proces_img1" class="proces-image">
+              <img :src="project.proces_img1" alt="Proces Image 1" />
+              <p>{{ project.proces_img1_beschrijving }}</p>
+            </div>
+            <div v-if="project.proces_img2" class="proces-image">
+              <img :src="project.proces_img2" alt="Proces Image 2" />
+              <p>{{ project.proces_img2_beschrijving }}</p>
+            </div>
+            <div v-if="project.proces_img3" class="proces-image">
+              <img :src="project.proces_img3" alt="Proces Image 3" />
+              <p>{{ project.proces_img3_beschrijving }}</p>
+            </div>
+          </div>
+
+          <div class="video-container" v-if="project.proces_video">
+            <iframe
+              :src="project.proces_video"
+              title="YouTube video player"
+              data-cookieconsent="marketing"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+
+
         </section>
 
         <section class="eindproduct">
@@ -114,6 +163,10 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
               allowfullscreen
             >
             </iframe>
+          </div>
+
+          <div class="eindproduct-img" v-if="project.eindproduct_img">
+            <img :src="project.eindproduct_img" alt="Eindproduct Image" />
           </div>
 
           <a
@@ -204,6 +257,30 @@ ul {
   }
 }
 
+.proces-images {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 2em 0;
+
+  .proces-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      max-width: 400px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      text-align: left;
+    }
+  }
+}
+
 .link_terug {
   position: fixed;
   bottom: 5%;
@@ -225,6 +302,17 @@ ul {
   }
 }
 
+.eindproduct-img {
+  display: flex;
+  justify-content: center;
+  margin: 1.5em 0;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
 
 .link_eindproduct {
   padding: 10px;
