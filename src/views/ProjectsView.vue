@@ -10,7 +10,6 @@
     </div>
 
     <section class="cards">
-      <p>All projects:</p>
       <ProjectCard
         v-for="project in filteredProjects"
         :key="project.name"
@@ -68,6 +67,8 @@ const filteredProjects = computed(() => {
   flex-direction: column;
   align-items: center;
   padding: 2em;
+  padding-bottom: 10em;
+  border-bottom: 5px solid white;
 }
 
 h1 {
@@ -78,6 +79,7 @@ p {
   color: white;
   margin-top: 1em;
 }
+
 
 .filters {
   margin: 1em 0;
@@ -103,67 +105,4 @@ p {
     }
   }
 }
-</style>
-
-<style lang="scss">
-@import '../styles/style.scss';
-
-.cards {
-  a {
-    p {
-      color: white;
-      margin-top: 1.5em;
-    }
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .project_card {
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 1em;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: 800px;
-
-    p {
-      margin-top: 1em;
-    }
-
-    ul {
-      padding: 0;
-      margin-top: 5px;
-      list-style: none;
-
-      li {
-        p {
-          color: black;
-
-          &:nth-of-type(2) {
-            color: red;
-          }
-        }
-      }
-    }
-
-    img {
-      margin: 10px;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-    }
-
-    &:hover {
-      transform: scale(1.1);
-      border: 2px solid $color-interaction;
-      cursor: pointer;
-    }
-  }
-
-}
-
 </style>

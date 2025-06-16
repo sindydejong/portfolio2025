@@ -30,7 +30,7 @@ const characters = [
     title: 'THE DESIGNER',
     description: 'As a designer I like to stand out by making functional and fun designs',
     skills: ['AI', 'PS', 'XD', 'Figma'],
-    project: 'Magic 8-ball: Interactieve applicatie JAVASCRIPT',
+    project: 'NEO: Genderneutral clothing brand',
     buttonText: 'More design projects'
   },
   {
@@ -38,7 +38,7 @@ const characters = [
     title: 'THE FRONT-ENDER',
     description: 'I enjoy bringing designs to life with code, focusing on user experience',
     skills: ['HTML', 'CSS', 'JS', 'VUE'],
-    project: 'Magic 8-ball: Interactieve applicatie JAVASCRIPT',
+    project: 'Red Hot Chili Peppers: Screenreader friendly website',
     buttonText: 'More front-end projects'
   },
   {

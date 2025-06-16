@@ -210,6 +210,8 @@ main {
   grid-template-columns: 1fr;
   width: 100vw;
   background-color: $color-main;
+    padding-bottom: 8em;
+      border-bottom: 5px solid white;
 }
 
 .project-header {
@@ -383,8 +385,6 @@ ul {
   min-height: 100vh;
   background-color: $color-main;
   color: black;
-  // border-top: 5px solid white;
-  border-bottom: 5px solid white;
 }
 
 @media screen and (min-width: 1000px) {
