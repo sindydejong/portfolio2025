@@ -170,12 +170,12 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
             <img :src="project.eindproduct_img" alt="Eindproduct Image" />
           </div>
 
-           <div class="video-container" v-if="project.eindproduct_video">
+          <div class="video-container" v-if="project.eindproduct_video">
             <iframe
               :src="project.eindproduct_video"
               title="Video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             >

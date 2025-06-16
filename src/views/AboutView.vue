@@ -15,6 +15,12 @@
 
 <section class="hobbies">
 <h2> My Hobbies </h2>
+<ul> 
+<li>Playing guitar🎸</li>
+<li>Concerts🎤</li>
+<li>Gaming🎮</li>
+<li>Drinking beers🍺</li>
+</ul>
 
 </section>
 
@@ -73,20 +79,25 @@ h1 {
     h2 {
         color: $color-interaction;
         margin-bottom: 0.5em;
-    }
+      }
+      p {
+        margin-bottom: 1em;
+      }
   }
 }
 
 .funfact div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
+  display: flex;
+  gap: 1em;
+  width: 100%;
 }
 
 .funfact div img {
-    width: 10em;
+  flex: 1; // zorgt dat beide afbeeldingen gelijk verdelen
+  height: auto;
+  width: 50%;
+  object-fit: cover; // zorgt dat ze netjes bijgesneden worden zonder vervorming
+  border-radius: 8px; // optioneel voor mooie afgeronde hoeken
 }
 
 </style>
