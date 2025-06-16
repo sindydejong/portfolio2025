@@ -22,6 +22,7 @@ export interface Project {
   eindproduct: string
   eindproduct_link?: string
   eindproduct_img?: string
+  eindproduct_video?: string
 }
 
 export const projects: Project[] = [
@@ -161,7 +162,72 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
       <p> De boodschap en doelgroep zijn zorgvuldig gekozen op basis van persoonlijke betrokkenheid en maatschappelijk belang. In het ontwerp staan empathie, herkenbaarheid en visuele helderheid centraal, met als doel: aanzetten tot reflectie en gesprek. </p>`,
     eindproduct:
       'Mijn poster draait om zelfexpressie en het recht om jezelf te zijn. Hoewel dit een mensenrecht is, wordt het in de samenleving nog steeds niet altijd geaccepteerd. De visual laat zien hoe een man, gekleed in een jurk en in een pak, uiteenlopende reacties oproept, wat de bestaande maatschappelijke norm over "goede" en "foute" zelfexpressie weerspiegelt.',
-    eindproduct_link: '',
     eindproduct_img: '/assets/images/beeldtaal.png'
   },
+  {
+    name: 'Beweging & Interactie',
+    image: '/assets/images/beweging.png',
+    video: '',
+    title: 'Beweging & Interactie: Animatie van mijzelf',
+    category: 'DESIGN',
+    hoofdzaak: 'Visual Interface Design, Vector drawing, Animatie',
+    vak: 'Beweging & Interactie',
+    duur: '2 weken',
+    datum: '20 mei 2025',
+    skills: ['Adobe Illustrator', 'Adobe After Effects'],
+    opdracht:
+      `<p>In dit vak heb ik mij verdiept in animatie en motion design als essentieel onderdeel van interactieve interfaces. Ik leerde hoe animatie niet alleen informatie ondersteunt, maar ook interacties vloeiender, begrijpelijker en aantrekkelijker maakt. Tijdens werkcolleges werkte ik aan praktische oefeningen en opdrachten waarbij ik kennismaakte met animatieprincipes, storyboardtechnieken, dynamische iconensets en verschillende tools, waaronder nieuwe AI-tools.</p>
+      <br>
+      <p>De nadruk lag op creatieve ontwikkeling, stijl, en het maken van doordachte keuzes in techniek en vorm. Het einddoel was het realiseren van een animated interface of interactieve animatie met een sterk visueel concept, gepresenteerd als prototype. </p>`,
+       proces:
+      `<p>Mijn concept is dat ik mijzelf namaak in animatie-vorm. De acties die ik uitvoer weerspiegelen mijn skills binnen mijn vakgebied en mijn persoonlijkheid. Hier kies ik voor omdat ik mijn animaties graag in mijn portfolio zou willen gebruiken. <p>
+      <br>
+      <ul>
+        <li>Actie 1: Zwaaien</li>
+        <li>Actie 2: Pen flippen</li>
+        <li>Actie 3: Laptop balanceren</li>
+      </ul>
+      <br>
+      <p>Ik heb gekozen voor een kleine twist op de acties zoals de pen flippen en laptop balanceren, omdat ik wil laten zien dat ik ook een speelse kant heb. Dit wil ik graag terug laten komen in mijn eindproduct. </p>
+      <br>
+      <p> Naast de animaties heb ik ook iconen en een loader ontworpen en geanimeerd, transities gemaakt en geluiden toegevoegd. Alles is gemaakt in Adobe Illustrator en geanimeerd in Adobe After Effects door middel van rigging</p>
+      `,
+    proces_img1: '/assets/Animatie_zwaaien_final.gif',
+    proces_img1_beschrijving:
+      'Zwaaien is een actie die ik vaak uitvoer, bijvoorbeeld als ik iemand begroet of gedag zeg. Het is een eenvoudige maar herkenbare beweging die ook in animatie goed tot zijn recht komt.',
+    proces_img2: '/assets/Animatie_penflip2_sneller.gif',
+    proces_img2_beschrijving:
+      'Pen flippen is een actie die ik gebruik om mijn creativiteit en speelsheid te tonen. Het is een dynamische beweging die goed past bij mijn stijl.',
+    proces_img3: '/assets/Animatie_balans.gif',
+    proces_img3_beschrijving:
+      'Laptop balanceren is een actie die mijn vaardigheden in multitasking en coördinatie benadrukt. Het is een leuke en uitdagende beweging om te animeren.',
+    eindproduct:
+      'Als eindproduct heb ik de animaties weergegeven in een gameboy, waarin het geanimeerde personage (ikzelf) de drie acties uitvoert. Een gameboy leek mij een leuk omhulsel voor mijn animaties, omdat het bijdraagt aan het speelse gevoel. Daarnaast hou ik zelf ook van gamen en vind ik het leuk om een animatie van mij zelf op deze manier te presenteren.',
+    eindproduct_video: '/assets/images/beweging_opname.mp4'
+  },
+  {
+    name: 'Meesterproef VID',
+    image: '/assets/images/meesterproef.png',
+    video: '',
+    title: 'Meesterproef VID: Interactieve ervaring drogeren',
+    category: 'DESIGN',
+    hoofdzaak: 'Visual Interface Design, Storytelling, Animeren',
+    vak: 'Visual Interface Design',
+    duur: '4 weken',
+    datum: '16 juni 2025',
+    skills: ['Figma', 'Adobe Illustrator', 'Adobe After Effects'],
+    opdracht:
+      `<p>Voor deze opdracht ontwikkelde ik een visuele en interactieve interface rondom een zelfgekozen casus (tekst, beeld, geluid of video). Het doel was om op een persoonlijke en experimentele manier een verhaal te vertalen naar een digitale ervaring. Ik koos zelf hoe ik mijn visie op de inhoud vormgaf en welke middelen ik gebruikte om deze te bemiddelen.</p>
+      <br>
+      <p>De interface mocht functioneel of juist experimenteel zijn, zolang het ontwerp een duidelijke interpretatie liet zien. Geluid speelde een rol in de beleving. Ook integreerde ik kennis uit eerdere vakken in zowel de vormgeving als de interactie van de interface.</p>`,
+    eindproduct:
+       `<p>Voor mijn meesterproef heb ik gekozen om aandacht te geven aan een onderwerp dat mij persoonlijk raakt: drogering in het nachtleven. Na eigen ervaringen en verhalen van vriendinnen, realiseerde ik me hoe onzichtbaar én alledaags dit gevaar is en hoe weinig mensen echt weten wat er gebeurt als het je overkomt.</p>
+      <br>
+      <p>Ik wilde daarom geen statisch informatief ontwerp, maar een gevoelsmatige ervaring die dichtbij komt. Door middel van horizontale interactie, videobeelden, geluid en typografie, reconstrueer ik stap voor stap een avond uit die eindigt in verwarring, controleverlies en gevaar. Mijn doel is om bewustzijn te vergroten en tegelijkertijd tips meegeven.</p>
+      <br>
+      <p> De interface voelt in eerste instantie bijna "gewoon" of herkenbaar, net als het uitgaansleven zelf. Juist daardoor grijpt de omslag naar gevaar je extra aan. Ik geloof dat design niet alleen moet informeren, maar ook moet voelen en dat bewustwording begint met het kunnen inleven. </p>`,  
+    eindproduct_video: '',
+    eindproduct_link: 'https://www.figma.com/proto/VK2EgoCNi1CzFlD5RWsKx1/Meesterproef?page-id=0%3A1&node-id=98-95&viewport=-2685%2C-1114%2C0.24&t=EBrVFNQ0nhlAWslg-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=98%3A95'
+  },
+
 ]

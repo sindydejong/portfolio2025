@@ -33,6 +33,7 @@ const project = projects.find((proj) => proj.name === props.name) || {
   eindproduct: '',
   eindproduct_link: '',
   eindproduct_img: '',
+  eindproduct_video: '',
 }
 
 console.log('Props:', props)
@@ -167,6 +168,18 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
 
           <div class="eindproduct-img" v-if="project.eindproduct_img">
             <img :src="project.eindproduct_img" alt="Eindproduct Image" />
+          </div>
+
+           <div class="video-container" v-if="project.eindproduct_video">
+            <iframe
+              :src="project.eindproduct_video"
+              title="Video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            >
+            </iframe>
           </div>
 
           <a
