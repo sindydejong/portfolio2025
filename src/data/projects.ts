@@ -94,7 +94,8 @@ export const projects: Project[] = [
       'Laptop balanceren is een actie die mijn vaardigheden in multitasking en coördinatie benadrukt. Het is een leuke en uitdagende beweging om te animeren.',
     eindproduct:
       'Als eindproduct heb ik de animaties weergegeven in een gameboy, waarin het geanimeerde personage (ikzelf) de drie acties uitvoert. Een gameboy leek mij een leuk omhulsel voor mijn animaties, omdat het bijdraagt aan het speelse gevoel. Daarnaast hou ik zelf ook van gamen en vind ik het leuk om een animatie van mij zelf op deze manier te presenteren.',
-    eindproduct_video: 'https://www.youtube.com/embed/Dr9z8JcuJYY?si=HOLl3vXevRss560P'
+    eindproduct_video: 'https://www.youtube.com/embed/Dr9z8JcuJYY?si=HOLl3vXevRss560P',
+    eindproduct_link: 'https://www.figma.com/proto/rVaVX2HZNU9ZGnahxSbl1V/animatie?page-id=0%3A1&node-id=35-133&p=f&viewport=173%2C277%2C0.64&t=VqAgfCkyozNFswDn-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=35%3A133'
   },
   {
     name: 'red_hot_chili_peppers',
@@ -211,7 +212,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
       <br>
       <p> De interface voelt in eerste instantie bijna "gewoon" of herkenbaar, net als het uitgaansleven zelf. Juist daardoor grijpt de omslag naar gevaar je extra aan. Ik geloof dat design niet alleen moet informeren, maar ook moet voelen en dat bewustwording begint met het kunnen inleven. </p>`,  
     eindproduct_video: '',
-    eindproduct_link: 'https://www.figma.com/proto/VK2EgoCNi1CzFlD5RWsKx1/Meesterproef?page-id=0%3A1&node-id=98-95&viewport=-2685%2C-1114%2C0.24&t=EBrVFNQ0nhlAWslg-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=98%3A95'
+    eindproduct_link: 'https://www.figma.com/proto/VK2EgoCNi1CzFlD5RWsKx1/Meesterproef?page-id=0%3A1&node-id=98-95&viewport=-2685%2C-1114%2C0.24&t=oYg75ObE3GYCwcXz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=98%3A95&hotspot-hints=0'
   },
       {
     name: 'Typografie',
