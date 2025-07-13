@@ -49,7 +49,7 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
 <template>
   <main>
     <div class="project-header">
-      <a class="link_terug" @click="$router.go(-1)"> Go back  </a>
+      <a class="link_terug" @click="$router.go(-1)"> Terug  </a>
       <h1>
         {{ titleMain }}<span v-if="titleSub">:</span>
         <br v-if="titleSub" />

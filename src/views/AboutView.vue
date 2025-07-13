@@ -2,24 +2,24 @@
 
 <div class="container"> 
 
-<h1>About me </h1>
+<h1>Over mij </h1>
 
 <div class="blocks">
 
 
-
-<section> 
-    <h2> My vision </h2>
-    <p>I'm a creative front-end developer with a love for design that works for everyone. I believe in building clear, well-functioning web experiences that not only feel good to use, but also do good. To me, design isn't just about how something looks, but how it includes. I care deeply about creating ethical and inclusive digital spaces where people feel welcome and represented. I like combining solid UX and clean code with a playful touch, because the web can (and should) be a little fun too.</p>    
+<section>
+    <h2> Mijn visie </h2>
+    <p>Ik ben een creatieve front-end developer met een liefde voor design dat werkt voor iedereen. Ik geloof in het bouwen van duidelijke, goed functionerende webervaringen die niet alleen prettig zijn om te gebruiken, maar ook goed doen. Voor mij gaat design niet alleen over hoe iets eruit ziet, maar ook over hoe het inclusief is. Ik geef veel om het creëren van ethische en inclusieve digitale ruimtes waar mensen zich welkom en vertegenwoordigd voelen. Ik combineer graag solide UX en schone code met een speelse touch, want het web kan (en moet) ook een beetje leuk zijn.</p>
 </section>
 
+
 <section class="hobbies">
-<h2> My Hobbies </h2>
+<h2> Mijn Hobby's </h2>
 <ul> 
-<li>Playing guitar🎸</li>
-<li>Concerts🎤</li>
-<li>Gaming🎮</li>
-<li>Drinking beers🍺</li>
+<li>Gitaar spelen🎸</li>
+<li>Concerten bezoeken🎤</li>
+<li>Gamen🎮</li>
+<li>Bier drinken🍺</li>
 </ul>
 
 </section>
@@ -27,7 +27,7 @@
 
 <section class="funfact">
 <h2> Fun fact </h2>
-<p> I have my own beer company! </p>
+<p> Ik heb mijn eigen bier bedrijf! <a href="https://www.outsideroriginals.nl" target="_blank" rel="noopener">Bekijk de website</a> </p>
 <div>
 <img src="/assets/images/bier_sindy.jpg" alt="Beer photo" />
 <img src="/assets/images/bier_buiten.jpg" alt="Beer photo" />
@@ -35,7 +35,7 @@
 </section>
 
 <section>
-<h2> My favorite song </h2>
+<h2> My favoriete liedje </h2>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2WfaOiMkCvy7F5fcp2zZ8L?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </section>
 

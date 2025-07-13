@@ -1,10 +1,10 @@
 <template>
   <div class="projects-container">
-    <h1>Projects</h1>
+    <h1>Projecten</h1>
 
     <!-- FILTER KNOPPEN -->
     <div class="filters">
-      <button :class="{ active: selectedCategory === 'All' }" @click="selectedCategory = 'All'">All</button>
+      <button :class="{ active: selectedCategory === 'All' }" @click="selectedCategory = 'All'">Alles</button>
       <button :class="{ active: selectedCategory === 'Front-End' }" @click="selectedCategory = 'Front-End'">Front-End</button>
       <button :class="{ active: selectedCategory === 'Design' }" @click="selectedCategory = 'Design'">Design</button>
     </div>
@@ -21,7 +21,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { projects } from '@/data/projects'
+import { orderedProjects } from '@/data/projects'
 import ProjectCard from '@/components/ProjectCardItem.vue'
 import { useRoute } from 'vue-router'
 
@@ -42,15 +42,15 @@ onMounted(() => {
 // Filter logica
 const filteredProjects = computed(() => {
   if (selectedCategory.value === 'All') {
-    return projects
+    return orderedProjects
   }
   if (selectedCategory.value === 'Front-End') {
-    return projects.filter(project =>
+    return orderedProjects.filter(project =>
       project.category === 'FRONT-END' || project.category === 'JAVASCRIPT'
     )
   }
   if (selectedCategory.value === 'Design') {
-    return projects.filter(project => project.category === 'DESIGN')
+    return orderedProjects.filter(project => project.category === 'DESIGN')
   }
   return []
 })
