@@ -11,8 +11,8 @@
       <div class="nav-wrapper">
         <nav>
           <router-link to="/" @click="closeNav">HOME</router-link><br />
-          <router-link to="/projects" @click="closeNav">PROJECTS</router-link><br />
-          <router-link to="/about" @click="closeNav">ABOUT</router-link>
+          <router-link to="/projects" @click="closeNav">PROJECTEN</router-link><br />
+          <router-link to="/about" @click="closeNav">OVER MIJ</router-link>
         </nav>
       </div>
     </div>

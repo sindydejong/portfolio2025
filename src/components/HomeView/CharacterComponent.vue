@@ -1,6 +1,6 @@
 <template>
 
-      <h2> My different sides</h2>
+      <h2> Mijn verschillende kanten</h2>
 
       <CharacterSlider/>
 

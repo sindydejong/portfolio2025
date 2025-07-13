@@ -11,9 +11,9 @@
       <span v-for="skill in character.skills" :key="skill">{{ skill }}</span>
     </div>
     <div class="project">
-      <strong v-if="character.title === 'THE PERSON'">Favorite song</strong>
-       <strong v-if="character.title === 'THE DESIGNER'"> Favorite design project </strong>
-        <strong v-if="character.title === 'THE FRONT-ENDER'"> Favorite front-end project </strong>
+      <strong v-if="character.title === 'THE PERSON'">Favoriete liedje</strong>
+       <strong v-if="character.title === 'THE DESIGNER'">Favoriete ontwerp project</strong>
+        <strong v-if="character.title === 'THE FRONT-ENDER'">Favoriete front-end project</strong>
       <div class="project-box">{{ character.project }}</div>
     </div>
 <button class="card-btn" @click="goToProjects">{{ character.buttonText }}</button>

@@ -27,27 +27,27 @@ import CharacterCard from './CharacterCard.vue'
 const characters = [
   {
     image: '/assets/Animatie_penflip2_sneller.gif',
-    title: 'THE DESIGNER',
-    description: 'As a designer I like to stand out by making functional and fun designs',
+    title: 'DESIGNER',
+    description: 'Als designer val ik graag op door functionele en leuke ontwerpen te maken',
     skills: ['AI', 'PS', 'XD', 'Figma'],
     project: 'NEO: Genderneutral clothing brand',
-    buttonText: 'More design projects'
+    buttonText: 'Meer design projecten'
   },
   {
     image: '/assets/Animatie_balans.gif',
-    title: 'THE FRONT-ENDER',
-    description: 'I enjoy bringing designs to life with code, focusing on user experience',
+    title: 'FRONT-ENDER',
+    description: 'Ik breng graag ontwerpen tot leven met code, met focus op de gebruikservaring',
     skills: ['HTML', 'CSS', 'JS', 'VUE'],
     project: 'Red Hot Chili Peppers: Screenreader friendly website',
-    buttonText: 'More front-end projects'
+    buttonText: 'Meer front-end projecten'
   },
   {
     image: '/assets/Animatie_zwaaien_final.gif',
-    title: 'THE PERSON',
-    description: 'I love to keep learning and exploring new things',
-    skills: ['Music', 'Gaming', 'Beer'],
-    project: 'Aha - Take On Me  ... everything 80s really!',
-    buttonText: 'More about me'
+    title: 'MIJZELF',
+    description: 'Ik hou ervan om te blijven leren en nieuwe dingen te verkennen',
+    skills: ['Muziek', 'Gamen', 'Bier'],
+    project: 'Aha - Take On Me  ... eigenlijk alles uit de jaren 80!',
+    buttonText: 'Meer over mij'
   }
 ]
 

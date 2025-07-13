@@ -11,7 +11,7 @@
 
   <!-- <GameButton @click="scrollToNextSection" /> -->
 
-  <button class="start-button" @click="scrollToNextSection">Get to know me!</button>
+  <button class="start-button" @click="scrollToNextSection">Laten we kennismaken!</button>
 </template>
 
 <script setup lang="ts">
