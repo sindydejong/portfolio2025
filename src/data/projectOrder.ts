@@ -1,10 +1,11 @@
 export const projectOrder = [
+  'springtracking',
+  'fileshare',
+  'outsider originals',
+  'red hot chili peppers',
+  'grid & kleur',
   'magic_8ball',
-  'red_hot_chili_peppers',
-  'Grid & Kleur',
-  'Beweging & Interactie',
+  'beweging & interactie',
   'jamties',
-  'Beeldtaal',
-  'Meesterproef VID',
-  'Typografie'
+  'beeldtaal',
 ];

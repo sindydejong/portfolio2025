@@ -11,10 +11,31 @@
       <span v-for="skill in character.skills" :key="skill">{{ skill }}</span>
     </div>
     <div class="project">
-      <strong v-if="character.title === 'THE PERSON'">Favoriete liedje</strong>
-       <strong v-if="character.title === 'THE DESIGNER'">Favoriete ontwerp project</strong>
-        <strong v-if="character.title === 'THE FRONT-ENDER'">Favoriete front-end project</strong>
-      <div class="project-box">{{ character.project }}</div>
+      <strong v-if="character.title === 'MIJZELF'">Favoriete liedje</strong>
+       <strong v-if="character.title === 'DESIGNER'">Favoriete ontwerp project</strong>
+        <strong v-if="character.title === 'FRONT-ENDER'">Favoriete front-end project</strong>
+<div class="project-box">
+  <RouterLink
+    v-if="character.projectName"
+    class="project-link"
+    :to="{ name: 'ProjectDetail', params: { name: character.projectName } }"
+  >
+    {{ character.project }}
+  </RouterLink>
+  
+  <a
+    v-else-if="character.projectUrl"
+    class="project-link"
+    :href="character.projectUrl"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {{ character.project }}
+  </a>
+
+  <span v-else>{{ character.project }}</span>
+</div>
+
     </div>
 <button class="card-btn" @click="goToProjects">{{ character.buttonText }}</button>
   </div>
@@ -118,6 +139,13 @@ h3 {
     font-size: 1rem;
     color: #222;
     text-align: left;
+    .project-link {
+      color: #2a4cff;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 .card-btn {

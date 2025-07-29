@@ -34,11 +34,11 @@ function scrollToNextSection() {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-text {
   text-align: center;
-  padding-top: 20px;
   h1 {
     font-size: 70px;
     margin-top: 10px;

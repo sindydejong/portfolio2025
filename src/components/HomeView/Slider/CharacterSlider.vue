@@ -30,7 +30,8 @@ const characters = [
     title: 'DESIGNER',
     description: 'Als designer val ik graag op door functionele en leuke ontwerpen te maken',
     skills: ['AI', 'PS', 'XD', 'Figma'],
-    project: 'NEO: Genderneutral clothing brand',
+    projectName: 'springtracking',
+    project: 'Springtracking: To the Stars and Beyond',
     buttonText: 'Meer design projecten'
   },
   {
@@ -38,17 +39,19 @@ const characters = [
     title: 'FRONT-ENDER',
     description: 'Ik breng graag ontwerpen tot leven met code, met focus op de gebruikservaring',
     skills: ['HTML', 'CSS', 'JS', 'VUE'],
+    projectName: 'red hot chili peppers',
     project: 'Red Hot Chili Peppers: Screenreader friendly website',
     buttonText: 'Meer front-end projecten'
   },
-  {
-    image: '/assets/Animatie_zwaaien_final.gif',
-    title: 'MIJZELF',
-    description: 'Ik hou ervan om te blijven leren en nieuwe dingen te verkennen',
-    skills: ['Muziek', 'Gamen', 'Bier'],
-    project: 'Aha - Take On Me  ... eigenlijk alles uit de jaren 80!',
-    buttonText: 'Meer over mij'
-  }
+ {
+  image: '/assets/Animatie_zwaaien_final.gif',
+  title: 'MIJZELF',
+  description: 'Ik hou ervan om te blijven leren en nieuwe dingen te verkennen',
+  skills: ['Muziek', 'Gamen', 'Bier'],
+  projectUrl: 'https://youtu.be/djV11Xbc914?si=asxr5q7KEkFny7g5',
+  project: 'Aha - Take On Me  ... eigenlijk alles uit de jaren 80!',
+  buttonText: 'Meer over mij'
+}
 ]
 
 const currentIndex = ref(0)

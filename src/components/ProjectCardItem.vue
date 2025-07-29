@@ -9,7 +9,7 @@
             <p>{{ project.title }}</p>
           </li>
           <li>
-            <p>{{ project.category }}</p>
+            <p>{{ project.category.join(', ') }}</p>
           </li>
           <li>
          <div class="skills">

@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import DOMPurify from 'dompurify'
-
-import { projects } from '@/data/projects' // Importeer de projects array
+import { projects } from '@/data/projects' 
 // import ProjectCard from '@/components/ProjectCardItem.vue'; // Importeer de ProjectCard component
 import { defineProps } from 'vue'
+import ImageDisplay from '@/components/ImageDisplay.vue'
 
 const props = defineProps<{
   name: string
@@ -22,7 +22,12 @@ const project = projects.find((proj) => proj.name === props.name) || {
   datum: '',
   skills: [] as string[],
   opdracht: '',
+  opdracht_img1: '',
+  opdracht_img1_beschrijving: '',
+  opdracht_img2: '',
+  opdracht_img2_beschrijving: '',
   proces: '',
+  proces_img_slider: [],
   proces_img1: '',
   proces_img1_beschrijving: '',
   proces_img2: '',
@@ -49,18 +54,16 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
 <template>
   <main>
     <div class="project-header">
-      <a class="link_terug" @click="$router.go(-1)"> Terug  </a>
+      <a class="link_terug" @click="$router.go(-1)"> Terug </a>
       <h1>
         {{ titleMain }}<span v-if="titleSub">:</span>
         <br v-if="titleSub" />
         <span v-if="titleSub" class="subtitle">{{ titleSub }}</span>
       </h1>
-
       <section>
         <img :src="project.image" alt="Project Image" />
         <p class="hoofdzaak">{{ project.hoofdzaak }}</p>
       </section>
-
       <section class="project-info">
         <ul>
           <li>
@@ -83,130 +86,95 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
       <div class="project-verslag">
         <section>
           <h2>Skills</h2>
-              <div class="skills">
-      <span v-for="skill in project.skills" :key="skill">{{ skill }}</span>
-    </div>
-          <!-- <p>{{ project.skills.join(', ') }}</p> -->
+          <div class="skills">
+            <span v-for="skill in project.skills" :key="skill">{{ skill }}</span>
+          </div>
         </section>
 
-        <section>
+        <section v-if="project.opdracht">
           <h2>Opdracht</h2>
-
           <div v-html="sanitizedOpdracht"></div>
-          <!-- <p> <div v-html="project.opdracht"> </div> </p> -->
-
-
+          <div class="opdracht-images">
+            <div v-if="project.opdracht_img1" class="image-item">
+              <ImageDisplay :source="project.opdracht_img1" altText="Opdracht afbeelding 1" />
+              <p v-if="project.opdracht_img1_beschrijving">{{ project.opdracht_img1_beschrijving }}</p>
+            </div>
+            <div v-if="project.opdracht_img2" class="image-item">
+              <ImageDisplay :source="project.opdracht_img2" altText="Opdracht afbeelding 2" />
+              <p v-if="project.opdracht_img2_beschrijving">{{ project.opdracht_img2_beschrijving }}</p>
+            </div>
+          </div>
         </section>
 
-          <section v-if="project.proces || project.proces_img1 || project.proces_img2 || project.proces_img3">
+        <section v-if="project.proces || project.proces_img1 || project.proces_img2 || project.proces_img3">
           <h2>Proces</h2>
-
           <div v-html="sanitizedProces"></div>
-          <!-- <p> <div v-html="project.opdracht"> </div> </p> -->
-
-<div class="proces-images" v-if="project.proces_img1 || project.proces_img2 || project.proces_img3">
-            <div v-if="project.proces_img1" class="proces-image">
-              <img :src="project.proces_img1" alt="Proces Image 1" />
-              <p>{{ project.proces_img1_beschrijving }}</p>
+          <div class="proces-images">
+            <div v-if="project.proces_img1" class="image-item">
+              <ImageDisplay :source="project.proces_img1" altText="Proces afbeelding 1" />
+              <p v-if="project.proces_img1_beschrijving">{{ project.proces_img1_beschrijving }}</p>
             </div>
-            <div v-if="project.proces_img2" class="proces-image">
-              <img :src="project.proces_img2" alt="Proces Image 2" />
-              <p>{{ project.proces_img2_beschrijving }}</p>
+            <div v-if="project.proces_img2" class="image-item">
+              <ImageDisplay :source="project.proces_img2" altText="Proces afbeelding 2" />
+              <p v-if="project.proces_img2_beschrijving">{{ project.proces_img2_beschrijving }}</p>
             </div>
-            <div v-if="project.proces_img3" class="proces-image">
-              <img :src="project.proces_img3" alt="Proces Image 3" />
-              <p>{{ project.proces_img3_beschrijving }}</p>
+            <div v-if="project.proces_img3" class="image-item">
+              <ImageDisplay :source="project.proces_img3" altText="Proces afbeelding 3" />
+              <p v-if="project.proces_img3_beschrijving">{{ project.proces_img3_beschrijving }}</p>
             </div>
           </div>
-
           <div class="video-container" v-if="project.proces_video">
-            <iframe
-              :src="project.proces_video"
-              title="YouTube video player"
-              data-cookieconsent="marketing"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            >
-            </iframe>
+            <iframe :src="project.proces_video" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
           </div>
-
-
         </section>
 
         <section class="eindproduct">
           <h2>Eindproduct</h2>
-
           <div v-html="sanitizedEindproduct"></div>
-
+          <div class="eindproduct-images">
+            <ImageDisplay :source="project.eindproduct_img" altText="Eindproduct afbeelding" />
+          </div>
           <div class="video-container" v-if="project.video">
-            <iframe
-              :src="project.video"
-              title="YouTube video player"
-              data-cookieconsent="marketing"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            >
-            </iframe>
+            <iframe :src="project.video" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
           </div>
-
           <div class="video-container" v-if="project.video2">
-            <iframe
-              :src="project.video2"
-              title="YouTube video player"
-              data-cookieconsent="marketing"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            >
-            </iframe>
+            <iframe :src="project.video2" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
           </div>
-
-          <div class="eindproduct-img" v-if="project.eindproduct_img">
-            <img :src="project.eindproduct_img" alt="Eindproduct Image" />
-          </div>
-
           <div class="video-container" v-if="project.eindproduct_video">
-            <iframe
-              :src="project.eindproduct_video"
-              title="Video player"
-              frameborder="0"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            >
-            </iframe>
+            <iframe :src="project.eindproduct_video" title="Video player" frameborder="0" allowfullscreen></iframe>
           </div>
-
-          <a
-            class="link_eindproduct"
-            v-if="project.eindproduct_link"
-            :href="project.eindproduct_link"
-            target="_blank"
-          >
+          <a class="link_eindproduct" v-if="project.eindproduct_link" :href="project.eindproduct_link" target="_blank">
             Naar online eindproduct
           </a>
         </section>
       </div>
     </div>
-
-    <!-- <section class="cards">
-     <p> Alle projecten: </p>
-         <ProjectCard v-for="project in projects" :key="project.name" :project="project" />
-         </section> -->
   </main>
 </template>
 
 <style lang="scss" scoped>
 @import '/src/styles/style.scss';
 
+.opdracht-images,
+.proces-images,
+.eindproduct-images {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 2em;
+
+  .image-item {
+    text-align: center;
+
+    p {
+      margin-top: 0em;
+      text-align: center;
+    }
+  }
+}
+
+
 main {
-  // grid-template-columns: none !important;
-  // grid-template-rows: repeat(auto-fit, minmax(5em, 1fr)) !important; /* Pas de 5em aan naar de gewenste minimumhoogte */
   grid-template-columns: 1fr;
   width: 100vw;
   background-color: $color-main;
@@ -214,6 +182,7 @@ main {
   border-bottom: 5px solid white;
 }
 
+/* ... etc. ... */
 .project-header {
   height: calc(100vh - 60px);
   display: flex;
@@ -228,6 +197,7 @@ h1 {
 
 .skills {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin: 1rem 0;
   span {
@@ -261,7 +231,7 @@ ul {
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  margin: 1.5em 0;
+  margin: 0 0;
 
   iframe {
     position: absolute;
@@ -269,30 +239,6 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-  }
-}
-
-.proces-images {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin: 2em 0;
-
-  .proces-image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    img {
-      max-width: 400px;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 0.5em;
-    }
-
-    p {
-      text-align: left;
-    }
   }
 }
 
@@ -317,28 +263,15 @@ ul {
   }
 }
 
-.eindproduct-img {
-  display: flex;
-  justify-content: center;
-  margin: 1.5em 0;
-
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-}
-
 .link_eindproduct {
   padding: 10px;
   background-color: $color-interaction;
-  color: black;;
+  color: black;
   margin: 1em 0em;
   display: block;
   text-decoration: none;
   width: max-content;
   border-radius: 5px;
-
 
   &:hover {
     color: $color-interaction;
@@ -388,19 +321,13 @@ ul {
 }
 
 @media screen and (min-width: 1000px) {
-  // h1 {
-  //   width: 90vw;
-  // }
-
   section {
-    // width: 70vw;
-
     &:first-of-type {
       margin-top: 1em;
     }
   }
 
-  ul {
+  .project-info ul {
     position: relative;
     top: auto;
     display: flex;
@@ -408,12 +335,8 @@ ul {
     justify-content: flex-start;
   }
 
-  img {
+  .project-header img {
     height: 60vh;
-  }
-
-  .cards {
-    margin-bottom: 0em;
   }
 }
 </style>

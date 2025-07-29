@@ -3,37 +3,41 @@ import { projectOrder } from './projectOrder'
 export interface Project {
   name: string
   image: string
-  video?: string
-  video2?: string
   title: string
-  category: string
+  category: string[]
   hoofdzaak: string
   vak: string
   duur: string
   datum: string
   skills: string[]
   opdracht: string
+  opdracht_img1?: string | string[]
+  opdracht_img1_beschrijving?: string
+  opdracht_img2?: string | string[]
+  opdracht_img2_beschrijving?: string
   proces?: string
-  proces_img1?: string
+  proces_img1?: string | string[]
   proces_img1_beschrijving?: string
-  proces_img2?: string
+  proces_img2?: string | string[]
   proces_img2_beschrijving?: string
-  proces_img3?: string
+  proces_img3?: string | string[]
   proces_img3_beschrijving?: string
   proces_video?: string
   eindproduct: string
+  video?: string
+  video2?: string
   eindproduct_link?: string
-  eindproduct_img?: string
+  eindproduct_img?: string | string[]
   eindproduct_video?: string
 }
 
 export const projects: Project[] = [
   {
-    name: 'Grid & Kleur',
+    name: 'grid & kleur',
     image: '/assets/images/neo.png',
     video: 'https://www.youtube-nocookie.com/embed/e0EmUWmckbA?si=2JJsj-AjDEpYgUyH',
     title: 'Grid & Kleur: NEO - Genderneutrale kleding',
-    category: 'DESIGN',
+    category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, UX/UI Design, Brand Design, Prototyping',
     vak: 'Grid & Kleur',
     duur: '4 weken',
@@ -58,11 +62,11 @@ export const projects: Project[] = [
       'https://www.figma.com/proto/gI1pxWWKL5Uf52a6DZqdL4/Neo?page-id=0%3A1&node-id=13-2&p=f&viewport=464%2C199%2C0.06&t=YoE1lyUcePMwDvzr-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=13%3A2'
   },
   {
-    name: 'Beweging & Interactie',
+    name: 'beweging & interactie',
     image: '/assets/images/beweging.png',
     video: '',
     title: 'Beweging & Interactie: Animatie van mijzelf',
-    category: 'DESIGN',
+    category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, Vector drawing, Animatie',
     vak: 'Beweging & Interactie',
     duur: '2 weken',
@@ -71,7 +75,7 @@ export const projects: Project[] = [
     opdracht: `<p>In dit vak heb ik mij verdiept in animatie en motion design als essentieel onderdeel van interactieve interfaces. Ik leerde hoe animatie niet alleen informatie ondersteunt, maar ook interacties vloeiender, begrijpelijker en aantrekkelijker maakt. Tijdens werkcolleges werkte ik aan praktische oefeningen en opdrachten waarbij ik kennismaakte met animatieprincipes, storyboardtechnieken, dynamische iconensets en verschillende tools, waaronder nieuwe AI-tools.</p>
       <br>
       <p>De nadruk lag op creatieve ontwikkeling, stijl, en het maken van doordachte keuzes in techniek en vorm. Het einddoel was het realiseren van een animated interface of interactieve animatie met een sterk visueel concept, gepresenteerd als prototype. </p>`,
-    proces: `<p>Mijn concept is dat ik mijzelf namaak in animatie-vorm. De acties die ik uitvoer weerspiegelen mijn skills binnen mijn vakgebied en mijn persoonlijkheid. Hier kies ik voor omdat ik mijn animaties graag in mijn portfolio zou willen gebruiken. <p>
+    proces: `<p>Mijn concept is dat ik mijzelf namaak in animatie-vorm. De acties die ik uitvoer weerspiegelen mijn skills binnen mijn vakgebied en mijn persoonlijkheid. Hier kies ik voor omdat ik mijn animaties graag in mijn portfolio zou willen gebruiken. </p>
       <br>
       <ul>
         <li>Actie 1: Zwaaien</li>
@@ -99,11 +103,11 @@ export const projects: Project[] = [
       'https://www.figma.com/proto/rVaVX2HZNU9ZGnahxSbl1V/animatie?page-id=0%3A1&node-id=35-133&p=f&viewport=173%2C277%2C0.64&t=VqAgfCkyozNFswDn-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=35%3A133'
   },
   {
-    name: 'red_hot_chili_peppers',
+    name: 'red hot chili peppers',
     image: '/assets/images/rhcp.webp',
     video: '',
     title: 'Red Hot Chili Peppers: Screenreader friendly',
-    category: 'FRONT-END',
+    category: ['FRONT-END'],
     hoofdzaak: 'Front-end development, toegankelijkheid en responsiveness',
     vak: 'Front-end development',
     duur: '6 weken',
@@ -142,7 +146,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     image: '/assets/images/8ball.webp',
     video: 'https://www.youtube-nocookie.com/embed/p1J3UeUW74w?si=Rty6eYxkpXvkMucj',
     title: 'Magic 8-Ball: interactieve applicatie',
-    category: 'JAVASCRIPT',
+    category: ['JAVASCRIPT'],
     hoofdzaak: 'Front-end development, interactie design',
     vak: 'Inleiding programmeren',
     duur: '6 weken',
@@ -160,7 +164,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     video: 'https://www.youtube-nocookie.com/embed/hzGr8m0BfvA?si=ZYdhdQEDsgymztoW"',
     video2: 'https://www.youtube-nocookie.com/embed/A61T92TfQ68?si=-vf6280KcGcaf2O8',
     title: 'JamTies: Muziekaal interactief spel',
-    category: 'DESIGN',
+    category: ['DESIGN'],
     hoofdzaak: 'De wereld verbeteren door mensen met elkaar te verbinden met behulp van muziek',
     vak: 'Passie project',
     duur: '3 weken',
@@ -173,11 +177,11 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     eindproduct_link: ''
   },
   {
-    name: 'Beeldtaal',
+    name: 'beeldtaal',
     image: '/assets/images/beeldtaal.png',
     video: '',
     title: 'Beeldtaal: Semiotiek, gestalt en retorica',
-    category: 'DESIGN',
+    category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design',
     vak: 'Beeldtaal',
     duur: '2 weken',
@@ -193,11 +197,11 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     eindproduct_img: '/assets/images/beeldtaal.png'
   },
   {
-    name: 'Meesterproef VID',
+    name: 'meesterproef vid',
     image: '/assets/images/meesterproef.png',
     video: '',
     title: 'Meesterproef VID: Interactieve ervaring drogeren',
-    category: 'DESIGN',
+    category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, Storytelling, Animeren',
     vak: 'Visual Interface Design',
     duur: '4 weken',
@@ -216,11 +220,11 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
       'https://www.figma.com/proto/VK2EgoCNi1CzFlD5RWsKx1/Meesterproef?page-id=0%3A1&node-id=98-95&viewport=-2685%2C-1114%2C0.24&t=oYg75ObE3GYCwcXz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=98%3A95&hotspot-hints=0'
   },
   {
-    name: 'Typografie',
+    name: 'typografie',
     image: '/assets/images/typespecimen.png',
     video: '',
     title: 'Typografie: Type Specimen Broadway font',
-    category: 'DESIGN',
+    category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, typografie',
     vak: 'Typografie',
     duur: '4 weken',
@@ -232,7 +236,88 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
       'Mijn eindproduct is een digitale interactieve typespecimen waarin het Broadway font op verschillende manieren wordt gepresenteerd. Ik vergelijk het gebruik van vroeger met het gebruik van nu. Dit laat de veelzijdigheid van het font zien en bevat voorbeelden van gebruik in verschillende contexten.',
     eindproduct_link:
       'https://www.figma.com/proto/aQmIdTPCiTE9ey1NLvqdST/Typo?page-id=0%3A1&node-id=97-2&viewport=912%2C57%2C0.07&t=BFebCToSnNdNLI0i-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=97%3A2&hide-ui=1'
-  }
+  },
+    {
+    name: 'springtracking',
+    image: '/assets/images/springtracking.png',
+    video: '',
+    title: 'Springtracking 2.0: to the stars and beyond',
+    category: ['DESIGN'],
+    hoofdzaak: 'Visual Interface Design, User Experience Design',
+    vak: 'Korte stage 2025',
+    duur: '10 weken',
+    datum: '18 juni 2024',
+    skills: ['Figma', 'UX', 'UI','Klantcontact', 'Prototyping'],
+    opdracht:
+      `<p> Dit was een stageproject bij het bedrijf Nalta voor hun klant Springtracking, dat een onderdeel is van PostNL International. Hierbij ik de bestaande website heb geanalyseerd en verbeterd. Ik heb de gebruikerservaring geoptimaliseerd en de visuele elementen vernieuwd om de website gebruiksvriendelijker en aantrekkelijker te maken. Tussendoor heb ik direct met de business managers van PostNL International samengewerkt in feedbacksessies. </p>
+      <br>
+      Een aantal belangrijke eisen waren: 
+      <br>
+      <ul>
+      <li> Het ontwerp moet responsief zijn, omdat gebruiker de site op zowel telefoon als desktop bezoeken. </li>
+      <li> Er moet worden vastgehouden aan het 'ruimte' thema, omdat dit de rode draad is van de website. Zo moeten bijvoorbeeld de kleuren en de iconen terugkomen. </li>
+      <li> Bij het ontwerp moet er rekening worden gehouden met hoe bezorging bij een pick-up point eruit ziet. </li>
+      </ul>
+      `,
+    opdracht_img1: ['/assets/images/springtracking/springtracking_1.png', '/assets/images/springtracking/springtracking_2.png'],
+    opdracht_img1_beschrijving: 'Dit is hoe Springtracking er nu uitziet. ',
+    proces: `<p> Deze opdracht heb ik in drie delen aangepakt. </p>
+      <br>
+      <ul>
+        <li>Deel 1: mobiel design </li>
+        <li>Deel 2: desktop design </li>
+        <li>Deel 3: bijpassend trader's portal </li>
+      </ul>
+      <br>
+      <p> De uitdaging zat voor mij vooral in het maken van een design dat zowel op mobiel als op desktop goed werkt. Ik ben mobile-first gaan ontwerpen, omdat ik denk dat dit de beste manier is om een responsive interface te creëren. Als het lukt om veel informatie op een klein scherm te krijgen, dan lukt het sowieso ook op een groot scherm.  </p>
+      <br>
+      <p> Het ontwerpen van de stijl was een erg leuk en iteratief proces. Ik had natuurlijk al een rode draad vanuit de bestaande huisstijl, maar ik heb ook veel nieuwe elementen toegevoegd om het ontwerp fris en modern te maken. </p>
+      `,
+    proces_img1: ['/assets/images/springtracking/startd1.png', '/assets/images/springtracking/startd2.png', '/assets/images/springtracking/startd3.png', '/assets/images/springtracking/startd4.png', '/assets/images/springtracking/startd5.png'],
+    proces_img1_beschrijving:
+      'Dit is de startpagina. Klik door de vorige versies heen om de verschillende iteraties van het ontwerp te zien. Al deze versies heb ik laten zien aan de klant en op basis van feedback heb ik het ontwerp verder verbeterd.',
+    proces_img2: ['/assets/images/springtracking/progressbar1.png', '/assets/images/springtracking/progressbar2.png', '/assets/images/springtracking/progressbar3.png'],
+    proces_img2_beschrijving:
+      'Dit is de tracking timeline. Het is een visuele weergave van de voortgang van een pakket, met iconen die de verschillende stadia van het verzendproces aangeven. De kleuren en iconen zijn ontworpen om een ruimte-thema te weerspiegelen, wat aansluit bij de identiteit van Springtracking. Klik door de variaties heen om de verschillende stadia van het proces te zien.',
+    eindproduct:
+      'Dit uitdaagende en zeer leuke project heeft mij veel geleerd over responsive ontwerpen met meerdere eisen en aandachtspunten die in het ontwerp moeten komen. Ik heb veel geitereerd en samengewerkt met collegas. Ook heb ik direct meeting gehad met de klant, waar ik erg veel heb geleerd. Mijn eindproduct is interactief figma design met daarin de vernieuwde versie van de website. ',
+    eindproduct_video: 'https://www.youtube.com/embed/sJj7DfIxfig?si=q51ViAzcN28tH1Vl'
+  },
+  {
+    name: 'fileshare',
+    image: '/assets/images/fileshare.png',
+    video: '',
+    title: 'Fileshare: Sharing is Caring',
+    category: ['DESIGN', 'FRONT-END'],
+    hoofdzaak: 'Visual Interface Design, User Experience Design, Front-end development',
+    vak: 'Bijbaan bij Nalta Software',
+    duur: '6 maanden parttime',
+    datum: '12 februari 2025',
+    skills: ['Figma', 'UX', 'UI', 'Front-end development','VUE', 'prototyping'],
+    opdracht: 'Na mijn korte stage bij Nalta Software ben ik daar blijven werken als parttime designer/developer. Het bedrijf wilde graag een fileshare webapplicatie waarmee makkelijk en veilig bestanden met elkaar en klanten gedeeld konden worden. Deze webapplicatie heb ik ontworpen en ontwikkeld, met ondersteuning van een aantal kennisrijke collega`s.',
+    proces: ` <p> Het ontwerp is gebaseerd op de principes van Visual Interface Design en User Experience Design. Ik heb ervoor gezorgd dat de interface intuïtief is, met duidelijke navigatie en visuele hiërarchie. De applicatie is ook responsive, zodat deze goed werkt op verschillende apparaten en schermformaten. </p>
+      <br>
+      <p> Tijdens het ontwikkelingsproces heb ik gebruik gemaakt van Figma voor het ontwerpen van de interface en Vue.js voor de front-end ontwikkeling. Ik heb ook aandacht besteed aan toegankelijkheid, zodat de applicatie bruikbaar is voor mensen met verschillende vaardigheden en behoeften. </p>`,
+    proces_img1: ['/assets/images/springtracking/startd1.png', '/assets/images/springtracking/startd2.png', '/assets/images/springtracking/startd3.png', '/assets/images/springtracking/startd4.png', '/assets/images/springtracking/startd5.png'],
+    proces_img1_beschrijving: 'ded',
+    eindproduct: 'Beschrijving van het eindproduct ',
+    eindproduct_video: 'https://www.youtube.com/embed/CSPnTIkycmc?si=DtuZNXiRY4BLZ6vo',
+  },
+    {
+    name: 'outsider originals',
+    image: '/assets/images/outsider_originals.png',
+    video: '',
+    title: 'Outsider Originals: De Vlierfluiter',
+    category: ['DESIGN'],
+    hoofdzaak: 'Product development/design, Branding, Sales, Website design',
+    vak: 'Minor Ondernemerschap',
+    duur: '5 maanden',
+    datum: '09-2024 tot 02-2025',
+    skills: ['Product development/design', 'Branding', 'Sales', 'Marketing'],
+    opdracht: 'Opdrachtbeschrijving .',
+    eindproduct: 'Beschrijving van het eindproduct '
+  },
+
 ]
 
 export const orderedProjects = projectOrder

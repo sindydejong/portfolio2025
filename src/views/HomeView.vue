@@ -28,6 +28,10 @@ import CharacterComponent from '../components/HomeView/CharacterComponent.vue'
     padding: 2em 5em 2em 5em;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 </style>

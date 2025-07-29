@@ -89,5 +89,8 @@ body {
   height: 100vh;
   padding: 3em 5em 2em 5em;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>

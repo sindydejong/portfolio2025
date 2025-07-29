@@ -39,12 +39,20 @@
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2WfaOiMkCvy7F5fcp2zZ8L?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </section>
 
+<section class="timeline">
+<h2> Mijn opleidingen en werkervaring </h2>
+<p>Hieronder een overzicht van mijn opleiding en werkervaring</p>
+<TimelineComponent/>
+</section>
+
 </div>
 </div>
 </template>
 
 <script setup lang="ts">
+import TimelineComponent from '@/components/TimelineComponent.vue'
 </script>
+
 <style scoped lang="scss">
 @import '../styles/style.scss';
 
@@ -99,5 +107,6 @@ h1 {
   object-fit: cover; // zorgt dat ze netjes bijgesneden worden zonder vervorming
   border-radius: 8px; // optioneel voor mooie afgeronde hoeken
 }
+
 
 </style>

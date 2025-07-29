@@ -44,7 +44,7 @@ function closeNav() {
 body {
   background: #336193;
   color: $color-interaction;
-    font-family: "peckham-press", sans-serif;
+  font-family: "peckham-press", sans-serif;
   text-align: center;
   max-width: 100%;
   overflow-x: hidden;

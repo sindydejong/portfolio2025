@@ -55,6 +55,7 @@ flex-direction: column;
       font-family: "peckham-press", sans-serif;
       margin-bottom: 0em;
       font-size: 100px;
+      text-align: center;
   }
 
   ul {

@@ -46,11 +46,11 @@ const filteredProjects = computed(() => {
   }
   if (selectedCategory.value === 'Front-End') {
     return orderedProjects.filter(project =>
-      project.category === 'FRONT-END' || project.category === 'JAVASCRIPT'
+      project.category.includes('FRONT-END') || project.category.includes('JAVASCRIPT')
     )
   }
   if (selectedCategory.value === 'Design') {
-    return orderedProjects.filter(project => project.category === 'DESIGN')
+    return orderedProjects.filter(project => project.category.includes('DESIGN'))
   }
   return []
 })
