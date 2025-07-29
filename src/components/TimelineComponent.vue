@@ -50,7 +50,7 @@ const timelineItems: TimelineItem[] = [
 
 <style scoped lang="scss">
 .timeline-wrapper {
-  background: #474e5d;
+  background: #253c6d;
   padding: 4rem 1rem;
 }
 
@@ -89,7 +89,7 @@ const timelineItems: TimelineItem[] = [
   left: 50%;
   transform: translateX(-50%);
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #d8cdc4;
   border-radius: 50%;
   z-index: 1;
 }
