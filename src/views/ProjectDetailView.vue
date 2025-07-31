@@ -60,8 +60,8 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
         <br v-if="titleSub" />
         <span v-if="titleSub" class="subtitle">{{ titleSub }}</span>
       </h1>
-      <section>
-        <img :src="project.image" alt="Project Image" />
+      <section >
+        <img :src="project.image" alt="Project Image" class="project-header-image" />
         <p class="hoofdzaak">{{ project.hoofdzaak }}</p>
       </section>
       <section class="project-info">
@@ -339,4 +339,22 @@ ul {
     height: 60vh;
   }
 }
+@media screen and (max-width: 600px) {
+
+h1 {
+  font-size: 1.5em;
+  margin: 2em 0.8em 1em 0.8em;
+}
+  .project-header-image {
+  width: 90vw;
+}
+.project-verslag {
+  width: auto;
+}
+.project-info {
+  margin-top: 1em;
+}
+
+}
+
 </style>

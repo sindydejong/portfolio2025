@@ -75,7 +75,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 700px;
+    // width: 700px;
 
     p {
       margin-top: 1em;

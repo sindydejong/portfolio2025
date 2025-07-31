@@ -7,7 +7,7 @@ const route = useRoute()
 </script>
 
 <template>
-  <div v-if="route.name === 'home'" class="grain-bg"></div>
+  <div v-if="route.name === 'home'" class="bg-hero"></div>
   <div class="shell">
     <div class="header">
       <HeaderComponent />
@@ -60,7 +60,7 @@ body {
   z-index: 1;
 }
 
-.grain-bg {
+.bg-hero {
   position: fixed;
   inset: 0;
   width: 100vw;
@@ -86,11 +86,28 @@ body {
   grid-area: footer;
   background-color: $color-interaction;
   color: white;
-  height: 100vh;
-  padding: 3em 5em 2em 5em;
+  min-height: 80px;
+  padding: 2em 2em 1.5em 2em;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .shell {
+    padding: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 1em;
+    height: 100vh;
+    font-size: 0.95em;
+    width: 100vw;
+  }
+  .header {
+    height: 48px;
+  }
 }
 </style>

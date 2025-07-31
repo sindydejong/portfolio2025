@@ -1,12 +1,12 @@
 <!-- filepath: /Users/sindy/Documents/portfolio_2025/src/components/ProjectImageSlider.vue -->
 <template>
   <div class="slider">
-    <button class="slider-arrow left" @click="prev" :disabled="current === 0">&#8592;</button>
+    <button class="slider-arrow left" @click="prev" :disabled="current === 0">&lt;</button>
     <div class="slider-image">
       <img :src="images[current].src" :alt="images[current].beschrijving || 'Project afbeelding'" />
       <p v-if="images[current].beschrijving">{{ images[current].beschrijving }}</p>
     </div>
-    <button class="slider-arrow right" @click="next" :disabled="current === images.length - 1">&#8594;</button>
+    <button class="slider-arrow right" @click="next" :disabled="current === images.length - 1">&#x3e;</button>
   </div>
 </template>
 
@@ -55,4 +55,14 @@ function next() {
   color: grey;
   cursor: default;
 }
+
+@media screen and (max-width: 600px) {
+.slider {
+  gap: 0;
+}
+.slider-arrow {
+  font-size: 1.5em;
+}
+}
+  
 </style>

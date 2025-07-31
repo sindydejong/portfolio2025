@@ -119,10 +119,10 @@ const sliderStyle = computed(() => {
   }
   .arrow {
     position: absolute;
-    top: 50%;
+    top: 25%;
     transform: translateY(-50%);
-    background: #2a4cff;
-    color: #fff;
+    background: transparent;
+    color: $color-interaction;;
     border: none;
     font-size: 2rem;
     padding: 0.5em 0.8em;

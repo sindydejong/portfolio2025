@@ -1,4 +1,5 @@
 <template>
+  <div class="hero-wrapper">
   <div class="hero-text">
     <!-- <h2>Portfolio</h2> -->
     <h2>UX/UI Designer & Front-ender</h2>
@@ -12,6 +13,7 @@
   <!-- <GameButton @click="scrollToNextSection" /> -->
 
   <button class="start-button" @click="scrollToNextSection">Laten we kennismaken!</button>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -26,15 +28,17 @@ function scrollToNextSection() {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import 'src/styles/style.scss';
 
-.hero {
-  height: calc(100vh - 60px);
+.hero-wrapper {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .hero-text {
@@ -93,4 +97,30 @@ function scrollToNextSection() {
     transform: translateY(0);
   }
 }
+
+
+// ✅ MEDIA QUERY VOOR MOBIEL
+@media (max-width: 600px) {
+  
+  .hero-wrapper{
+    width: 100vw;
+  }
+  .hero-text h1 {
+    font-size: 48px; // Lettertype kleiner voor mobiel
+  }
+
+  .hero-text h2 {
+    font-size: 16px;
+  }
+
+ .hero-gif img {
+    width: 100%;      // De afbeelding wordt 80% van de schermbreedte
+  }
+
+  .start-button {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
+
 </style>

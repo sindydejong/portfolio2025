@@ -35,7 +35,7 @@
 </section>
 
 <section>
-<h2> My favoriete liedje </h2>
+<h2> Mijn favoriete liedje </h2>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2WfaOiMkCvy7F5fcp2zZ8L?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </section>
 
@@ -44,6 +44,12 @@
 <p>Hieronder een overzicht van mijn opleiding en werkervaring</p>
 <TimelineComponent/>
 </section>
+
+<a href="/assets/files/cv_sindy.pdf" target="_blank" rel="noopener" class="cv-box">
+  <section class="cv-link">
+    <span> Bekijk mijn CV</span>
+  </section>
+</a>
 
 </div>
 </div>
@@ -81,7 +87,7 @@ h1 {
   section {
     background-color: white;
     border-radius: 10px;
-    margin: 1em;
+    margin: 1em 0;
     padding: 1.5em;
     color:black;
     h2 {
@@ -105,7 +111,43 @@ h1 {
   height: auto;
   width: 50%;
   object-fit: cover; // zorgt dat ze netjes bijgesneden worden zonder vervorming
-  border-radius: 8px; // optioneel voor mooie afgeronde hoeken
+  border-radius: 8px;
+}
+
+.cv-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: $color-interaction;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 1em;
+
+  section {
+    background-color: $color-interaction;
+    padding: 2em 0;
+  }
+
+  .cv-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    // color: white;
+    text-decoration: none;
+
+    &:hover {
+      background-color: darken($color-interaction, 10%);
+      color: white;
+      transition: all 0.3s ease ;
+    }
+  }
 }
 
 

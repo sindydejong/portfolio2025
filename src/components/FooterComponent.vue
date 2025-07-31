@@ -35,34 +35,39 @@
        <a href="https://www.linkedin.com/in/sindy-de-jong-049057226/"> <strong>github.com/sindydejong</strong> </a>
       </li>
 
-			</ul>
-
-          <img class="gif" src="/assets/pc-coding_2.gif" alt="Animated showcase" />
-
-
-    </footer>
+    </ul>
+    
+    <img class="gif" src="/assets/pc-coding_2.gif" alt="Animated showcase" />
+    
+    
+  </footer>
 </template>
 
 <style lang="scss" scoped>
 @import '../styles/style.scss';
 
-footer {
-display: flex;
-align-items: center;
-flex-direction: column;
-
-  h1 {
-      font-family: "peckham-press", sans-serif;
-      margin-bottom: 0em;
-      font-size: 100px;
-      text-align: center;
+@media (min-width: 600px) {
+footer h1 {
+    font-size: 8em;
   }
+}
 
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  h1 {
+    font-family: "peckham-press", sans-serif;
+    margin-bottom: 0em;
+    text-align: center;
+  }
+  
   ul {
     list-style: none;
     margin: 0;
     padding: 1em;
-
+    
     li {
       margin: 1em;
       display: flex;
@@ -70,7 +75,7 @@ flex-direction: column;
       background-color: white;
       padding: 1em;
       border-radius: 10px;
-
+      
       a {
         font-family: 'montserrat', sans-serif;
         font-size: 16px;
@@ -79,25 +84,32 @@ flex-direction: column;
         line-height: normal;
         text-decoration: none;
         margin-left: 9px;
-
+        
       }
-
+      
       strong {
         color: black;
         text-decoration: none;
-
+        
         &:hover {
           color: $color-interaction;
         }
       }
     }
   }
-
-.gif {
-  width: auto;
-  height: 200px;
+  
+  .gif {
+    width: auto;
+    height: 200px;
+  }
+  
+  
 }
 
-}
+@media (max-width: 600px) {
 
+  footer h1 {
+    font-size: 2.5em;
+  }
+}
 </style>
