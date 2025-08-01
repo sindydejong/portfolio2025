@@ -42,25 +42,23 @@ import CharacterComponent from '../components/HomeView/CharacterComponent.vue'
     width: 100vw;
 }
 
-// Stijlen specifiek voor mobiel
+
 @media (max-width: 600px) {
   .hero, .characters {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box; // Zorgt dat padding binnen de hoogte valt
+    box-sizing: border-box; 
 
   }
 
   .hero {
-    // Hoogte van het scherm MINUS de hoogte van de header
     min-height: calc(100vh - 48px); 
   }
 
   .characters {
-    // Deze sectie vult het volledige scherm
     min-height: 100vh; 
-    padding: 2em 1em; // Minder padding op mobiel is vaak beter
+    padding: 2em 1em; 
   }
 }
 

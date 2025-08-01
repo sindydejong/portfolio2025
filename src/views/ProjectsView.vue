@@ -5,8 +5,8 @@
     <!-- FILTER KNOPPEN -->
     <div class="filters">
       <button :class="{ active: selectedCategory === 'All' }" @click="selectedCategory = 'All'">Alles</button>
-      <button :class="{ active: selectedCategory === 'Front-End' }" @click="selectedCategory = 'Front-End'">Front-End</button>
       <button :class="{ active: selectedCategory === 'Design' }" @click="selectedCategory = 'Design'">Design</button>
+      <button :class="{ active: selectedCategory === 'Front-End' }" @click="selectedCategory = 'Front-End'">Front-End</button>
     </div>
 
     <section class="cards">
@@ -44,13 +44,13 @@ const filteredProjects = computed(() => {
   if (selectedCategory.value === 'All') {
     return orderedProjects
   }
+  if (selectedCategory.value === 'Design') {
+    return orderedProjects.filter(project => project.category.includes('DESIGN'))
+  }
   if (selectedCategory.value === 'Front-End') {
     return orderedProjects.filter(project =>
       project.category.includes('FRONT-END') || project.category.includes('JAVASCRIPT')
     )
-  }
-  if (selectedCategory.value === 'Design') {
-    return orderedProjects.filter(project => project.category.includes('DESIGN'))
   }
   return []
 })
@@ -105,4 +105,5 @@ p {
     }
   }
 }
+
 </style>

@@ -99,7 +99,6 @@ function scrollToNextSection() {
 }
 
 
-// ✅ MEDIA QUERY VOOR MOBIEL
 @media (max-width: 600px) {
   
   .hero-wrapper{
@@ -120,6 +119,7 @@ function scrollToNextSection() {
   .start-button {
     font-size: 18px;
     padding: 12px 24px;
+    margin-top: 1em;
   }
 }
 

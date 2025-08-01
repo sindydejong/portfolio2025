@@ -74,7 +74,7 @@ h1 a{
 .hamburger {
   position: absolute;
   top: 10px;
-  right: 5%;
+  right: 30px;
   width: 2em;
   height: 45px;
   z-index: 5;
@@ -87,19 +87,20 @@ h1 a{
 
 .hamburger div {
   position: relative;
-  width: 3em;
+  width: 2.5em;
   height: 7px;
   border-radius: 3px;
   background-color: #f8982b;
   margin-top: 8px;
+  left: auto;
   transition: all 0.3s ease-in-out;
 }
 
 .nav {
-  position: fixed;
   width: 100%;
   height: 100%;
   background-color: $color-main;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -184,5 +185,17 @@ nav a:hover:before {
 #toggle:checked + .hamburger + .nav {
   top: 0;
   transform: scale(1);
+}
+
+@media (max-width: 600px) {
+.hamburger {
+  transform: scale(0.8);
+    &:hover {
+    transform: scale(0.8);
+  }
+}
+nav a {
+    font-size: 2.5em;
+}
 }
 </style>

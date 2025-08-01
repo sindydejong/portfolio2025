@@ -39,11 +39,11 @@
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2WfaOiMkCvy7F5fcp2zZ8L?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </section>
 
-<section class="timeline">
+<!-- <section class="timeline">
 <h2> Mijn opleidingen en werkervaring </h2>
 <p>Hieronder een overzicht van mijn opleiding en werkervaring</p>
 <TimelineComponent/>
-</section>
+</section> -->
 
 <a href="/assets/files/cv_sindy.pdf" target="_blank" rel="noopener" class="cv-box">
   <section class="cv-link">
@@ -56,7 +56,7 @@
 </template>
 
 <script setup lang="ts">
-import TimelineComponent from '@/components/TimelineComponent.vue'
+// import TimelineComponent from '@/components/TimelineComponent.vue'
 </script>
 
 <style scoped lang="scss">
@@ -148,7 +148,13 @@ h1 {
       transition: all 0.3s ease ;
     }
   }
+  
 }
 
+@media screen and (max-width: 600px) {
+  .blocks {
+    width: 90vw;
+  }
+}
 
 </style>

@@ -9,7 +9,7 @@
             <p>{{ project.title }}</p>
           </li>
           <li>
-            <p>{{ project.category.join(', ') }}</p>
+            <p class="category">{{ project.category.join(', ') }}</p>
           </li>
           <li>
          <div class="skills">
@@ -45,6 +45,10 @@
 
   a {
     text-decoration: none;
+  }
+
+  .category {
+    color: $color-interaction !important;
   }
 
 .skills {
@@ -89,18 +93,11 @@
       li {
         p {
           color: black;
-
-          &:nth-of-type(2) {
-            color: red;
-          }
         }
       }
     }
 
     img {
-      margin: 10px;
-      width: 150px;
-      height: 150px;
       object-fit: cover;
     }
 
@@ -110,7 +107,34 @@
       cursor: pointer;
     }
   }
+}
 
+@media (min-width: 600px) {
+  img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+.project_card {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills {
+  justify-content: center;
+}
+
+ img {
+      width: auto;
+      height: 150px;
+      margin: 10px;
+      margin-top: 1.5em;
+}
 }
 
 </style> 
