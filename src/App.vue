@@ -87,7 +87,7 @@ body {
   background-color: $color-interaction;
   color: white;
   min-height: 80px;
-  padding: 2em 2em 1.5em 2em;
+  // padding: 2em 2em 1.5em 2em;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -102,7 +102,7 @@ body {
   .footer {
     flex-direction: column;
     padding: 1em;
-    height: 100vh;
+    height: 100dvh;
     font-size: 0.95em;
     width: 100vw;
   }

@@ -46,6 +46,14 @@
 <style lang="scss" scoped>
 @import '../styles/style.scss';
 
+footer {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 600px) {
 footer h1 {
     font-size: 8em;
@@ -59,6 +67,7 @@ footer {
   
   h1 {
     font-family: "peckham-press", sans-serif;
+    margin-top: 0em;;
     margin-bottom: 0em;
     text-align: center;
   }
@@ -100,7 +109,7 @@ footer {
   
   .gif {
     width: auto;
-    height: 200px;
+    height: 150px;
   }
   
   

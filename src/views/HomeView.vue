@@ -53,11 +53,11 @@ import CharacterComponent from '../components/HomeView/CharacterComponent.vue'
   }
 
   .hero {
-    min-height: calc(100vh - 48px); 
+    min-height: calc(100dvh - 48px); 
   }
 
   .characters {
-    min-height: 100vh; 
+    min-height: 100dvh; 
     padding: 2em 1em; 
   }
 }
