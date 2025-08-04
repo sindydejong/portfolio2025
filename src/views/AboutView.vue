@@ -45,7 +45,7 @@
 <TimelineComponent/>
 </section> -->
 
-<a href="public/assets/cv_sindy_2025.pdf" target="_blank" rel="noopener" class="cv-box">
+<a href="/assets/cv_sindy_2025.pdf" target="_blank" rel="noopener" class="cv-box">
   <section class="cv-link">
     <span> Bekijk mijn CV</span>
   </section>

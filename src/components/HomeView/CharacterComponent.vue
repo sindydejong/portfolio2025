@@ -26,8 +26,8 @@ font-size: 35px;
 
 @media (max-width: 600px) {
   h2 {
-    font-size: 18px;
-    margin-top: 1em;
+    font-size: 30px;
+    margin-top: 1.5em;
   }
 }
 
