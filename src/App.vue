@@ -99,6 +99,18 @@ body {
     padding: 0;
   }
 
+  .bg-hero {
+  background: linear-gradient(
+      90deg,
+      $color-main 5%,
+      #f8982b 35%,
+      #feac4e 50%,
+      #f8982b 65%,
+      $color-main 95%
+    )
+}
+
+
   .footer {
     flex-direction: column;
     padding: 1em;

@@ -20,7 +20,7 @@ import CharacterComponent from '../components/HomeView/CharacterComponent.vue'
 @import '../styles/style.scss';
 
 .hero {
-  height: calc(100lvh - 60px);
+  height: calc(100svh - 60px);
   display: flex;
   flex-direction: column;
   align-items: center;
