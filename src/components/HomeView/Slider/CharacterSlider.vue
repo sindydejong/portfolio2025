@@ -38,14 +38,14 @@ const characters = [
     title: 'FRONT-ENDER',
     description: 'Ik breng graag ontwerpen tot leven met code, met focus op de gebruikservaring',
     skills: ['HTML', 'CSS', 'JS', 'VUE'],
-    projectName: 'red hot chili peppers',
-    project: 'Red Hot Chili Peppers: Screenreader friendly website',
+    projectName: 'fileshare',
+    project: 'Fileshare: Sharing is Caring (Intern bedrijfsproject)',
     buttonText: 'Meer front-end projecten'
   },
  {
   image: '/assets/Animatie_zwaaien_final.gif',
   title: 'MIJZELF',
-  description: 'Ik hou ervan om te blijven leren en nieuwe dingen te verkennen',
+  description: 'Ik heb het nog nooit gedaan, maar ik denk dat ik het wel kan leren!',
   skills: ['Muziek', 'Gamen', 'Bier'],
   projectUrl: 'https://youtu.be/djV11Xbc914?si=asxr5q7KEkFny7g5',
   project: 'Aha - Take On Me  ... eigenlijk alles uit de jaren 80!',
@@ -63,7 +63,7 @@ onMounted(() => window.addEventListener('resize', handleResize))
 onUnmounted(() => window.removeEventListener('resize', handleResize))
 
 function prev() {
-  currentIndex.value = (currentIndex.value + characters.length - 1) % characters.length
+  currentIndex.value = (currentIndex.value - 1 + characters.length) % characters.length
 }
 function next() {
   currentIndex.value = (currentIndex.value + 1) % characters.length
@@ -81,8 +81,15 @@ function onTouchStart(e: TouchEvent) {
 
 function onTouchEnd(e: TouchEvent) {
   const endX = e.changedTouches[0].clientX
-  if (endX - startX > 50) prev()
-  else if (startX - endX > 50) next()
+  const threshold = 50
+
+  if (endX - startX > threshold) {
+    // swipe rechts (vorige)
+    currentIndex.value = (currentIndex.value - 1 + characters.length) % characters.length
+  } else if (startX - endX > threshold) {
+    // swipe links (volgende)
+    currentIndex.value = (currentIndex.value + 1) % characters.length
+  }
 }
 
 const sliderStyle = computed(() => {
