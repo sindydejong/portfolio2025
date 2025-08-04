@@ -26,7 +26,7 @@ const route = useRoute()
 
 body {
   margin: 0;
-  cursor: url('cursor.png'), auto;
+  // cursor: url('cursor.png'), auto;
 }
 
 .shell {
