@@ -83,15 +83,26 @@ function goToProjects() {
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   transition: box-shadow 0.2s;
 }
+// .character-img {
+//   width: auto;
+//   height: 200px;
+//   border-radius: 16px;
+//   img {
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//   }
+// }
+
 .character-img {
-  width: auto;
-  height: 200px;
-  // background: #ccc;
-  border-radius: 16px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 
@@ -161,5 +172,11 @@ h3 {
   box-shadow: 0 2px 4px rgba(0,0,0,0.07);
   transition: background 0.2s;
   &:hover { background: #ffb24d; }
+}
+
+@media (max-width: 900px) {
+.card-btn {
+  margin-top: 0 !important;
+}
 }
 </style>

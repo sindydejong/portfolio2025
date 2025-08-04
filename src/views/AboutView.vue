@@ -27,7 +27,7 @@
 
 <section class="funfact">
 <h2> Fun fact </h2>
-<p> Ik heb mijn eigen bier bedrijf! <a href="https://www.outsideroriginals.nl" target="_blank" rel="noopener">Bekijk de website</a> </p>
+<p> Ik heb mijn eigen bier bedrijf! <br> Bekijk de <a href="https://www.outsideroriginals.nl" target="_blank" rel="noopener"> website</a> & <a href="https://www.instagram.com/outsideroriginals/" target="_blank" rel="noopener">Instagram</a> </p>
 <div>
 <img src="/assets/images/bier_sindy.jpg" alt="Beer photo" />
 <img src="/assets/images/bier_buiten.jpg" alt="Beer photo" />
@@ -45,7 +45,7 @@
 <TimelineComponent/>
 </section> -->
 
-<a href="/assets/files/cv_sindy.pdf" target="_blank" rel="noopener" class="cv-box">
+<a href="public/assets/cv_sindy_2025.pdf" target="_blank" rel="noopener" class="cv-box">
   <section class="cv-link">
     <span> Bekijk mijn CV</span>
   </section>
@@ -75,7 +75,8 @@
 }
 
 h1 {
-    color: white
+    color: white;
+    margin-top: 1em;
 }
 
 .blocks {

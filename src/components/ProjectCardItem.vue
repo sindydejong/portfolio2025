@@ -55,7 +55,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin: 1rem 0;
+  margin: 1rem 0.5rem;
 
   span {
     display: inline-block;

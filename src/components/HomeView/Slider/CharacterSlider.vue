@@ -4,7 +4,6 @@
       class="slider-inner"
       :style="sliderStyle"
       @touchstart="onTouchStart"
-      @touchmove="onTouchMove"
       @touchend="onTouchEnd"
     >
       <CharacterCard
@@ -75,10 +74,11 @@ let startX = 0
 function onTouchStart(e: TouchEvent) {
   startX = e.touches[0].clientX
 }
-function onTouchMove(e: TouchEvent) {
-  // Prevent scrolling while swiping
-  e.preventDefault()
-}
+// function onTouchMove(e: TouchEvent) {
+//   // Prevent scrolling while swiping, put @touchmove="onTouchMove" in regel 7
+//   e.preventDefault()
+// }
+
 function onTouchEnd(e: TouchEvent) {
   const endX = e.changedTouches[0].clientX
   if (endX - startX > 50) prev()

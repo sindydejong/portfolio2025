@@ -197,5 +197,8 @@ nav a:hover:before {
 nav a {
     font-size: 2.5em;
 }
+h1 a {
+  font-size: 22px;
+}
 }
 </style>

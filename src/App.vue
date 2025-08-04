@@ -37,7 +37,7 @@ body {
     'header'
     'main'
     'footer';
-  min-height: 100vh;
+  min-height: 100dvh;
   margin: 0;
   background-color: $color-main;
 }
@@ -64,7 +64,7 @@ body {
   position: fixed;
   inset: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   z-index: 0;
   pointer-events: none;
   background: linear-gradient(

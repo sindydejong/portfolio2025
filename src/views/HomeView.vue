@@ -20,7 +20,7 @@ import CharacterComponent from '../components/HomeView/CharacterComponent.vue'
 @import '../styles/style.scss';
 
 .hero {
-  height: calc(100vh - 60px);
+  height: calc(100dvh - 60px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +30,7 @@ import CharacterComponent from '../components/HomeView/CharacterComponent.vue'
 
 .characters {
   // min-height: calc(100vh - 60px);
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: $color-main;
     padding: 2em 5em 2em 5em;
     border-top: 5px solid white;
