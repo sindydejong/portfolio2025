@@ -100,6 +100,7 @@ body {
   }
 
   .bg-hero {
+      height: 100svh;
   background: linear-gradient(
       90deg,
       $color-main 5%,
@@ -109,8 +110,6 @@ body {
       $color-main 95%
     )
 }
-
-
   .footer {
     flex-direction: column;
     padding: 1em;
