@@ -96,12 +96,11 @@ p {
     transition: 0.2s ease;
 
     &.active {
-      background-color: lighten($color-interaction, 10%);
       box-shadow: 0 0 0 2px white;
     }
 
     &:hover {
-      background-color: lighten($color-interaction, 5%);
+      background-color: darken($color-interaction, 10%);
     }
   }
 }
