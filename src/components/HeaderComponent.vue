@@ -199,6 +199,7 @@ nav a {
 }
 h1 a {
   font-size: 22px;
+  display: none;
 }
 }
 </style>
