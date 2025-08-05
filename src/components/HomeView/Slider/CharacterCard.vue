@@ -59,7 +59,7 @@ function goToProjects() {
     router.push({ name: 'projects', query: { category: 'Design' } })
   } else if (text.includes('front-end')) {
     router.push({ name: 'projects', query: { category: 'Front-End' } })
-  } else if (text.includes('about me')) {
+  } else if (text.includes('over mij')) {
     router.push({ name: 'about' })
   } else {
     router.push({ name: 'projects', query: { category: 'All' } })

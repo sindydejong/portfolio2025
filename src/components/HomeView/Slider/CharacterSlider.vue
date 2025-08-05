@@ -50,6 +50,7 @@ const characters = [
   projectUrl: 'https://youtu.be/djV11Xbc914?si=asxr5q7KEkFny7g5',
   project: 'Aha - Take On Me  ... eigenlijk alles uit de jaren 80!',
   buttonText: 'Meer over mij'
+  
 }
 ]
 
