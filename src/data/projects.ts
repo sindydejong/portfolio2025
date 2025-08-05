@@ -307,7 +307,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     name: 'outsider originals',
     image: '/assets/images/outsider_originals.png',
     video: '',
-    title: 'Outsider Originals: De Vlierfluiter',
+    title: 'Outsider Originals: De Vlierefluiter',
     category: ['DESIGN'],
     hoofdzaak: 'Product development/design, Branding, Sales, Website design',
     vak: 'Minor Ondernemerschap',

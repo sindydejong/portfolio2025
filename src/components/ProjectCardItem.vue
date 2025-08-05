@@ -55,7 +55,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin: 1rem 0.5rem;
+  margin: 1rem 0rem;
+  max-width: 35em;
 
   span {
     display: inline-block;
@@ -89,6 +90,7 @@
       padding: 0;
       margin-top: 5px;
       list-style: none;
+      margin-left: 1em;
 
       li {
         p {
@@ -111,7 +113,7 @@
 
 @media (min-width: 600px) {
   img {
-    width: 150px;
+    width: auto;
     height: 150px;
     margin: 10px;
   }
@@ -134,6 +136,10 @@
       height: 150px;
       margin: 10px;
       margin-top: 1.5em;
+}
+
+ul {
+  margin-left: 0 !important;
 }
 }
 
