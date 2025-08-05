@@ -4,13 +4,13 @@
   <h1 id="contact"> Let's Work Together! </h1>
 
 			<ul>
-				<li> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 38 30" fill="#090e6b">
+				<a href="mailto:sindymdejong@gmail.com"> <li> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 38 30" fill="#090e6b">
 						<path
 							d="M3.75 30C2.71875 30 1.83625 29.6331 1.1025 28.8994C0.36875 28.1656 0.00125 27.2825 0 26.25V3.75C0 2.71875 0.3675 1.83625 1.1025 1.1025C1.8375 0.36875 2.72 0.00125 3.75 0H33.75C34.7812 0 35.6644 0.3675 36.3994 1.1025C37.1344 1.8375 37.5012 2.72 37.5 3.75V26.25C37.5 27.2813 37.1331 28.1644 36.3994 28.8994C35.6656 29.6344 34.7825 30.0012 33.75 30H3.75ZM18.75 16.875L33.75 7.5V3.75L18.75 13.125L3.75 3.75V7.5L18.75 16.875Z"
 							fill="" />
 					</svg>
-					<a href="mailto:sindymdejong@gmail.com"> <strong>sindymdejong@gmail.com</strong> </a>
-				</li>
+					sindymdejong@gmail.com
+				</li> </a>
 				<!-- <li>
 					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 38 38" fill="#090e6b">
 						<path
@@ -19,27 +19,28 @@
 					</svg>
 					<a href="tel:0646854712"> <strong>0646854712</strong> </a>
 				</li> -->
-				<li>
+				<a href="https://www.linkedin.com/in/sindy-de-jong-049057226/"> <li>
 					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 37 38" fill="#090e6b">
 						<path
 							d="M0 3.14964C0 1.68582 1.21637 0.499512 2.71719 0.499512H34.2828C35.7836 0.499512 37 1.68582 37 3.14964V34.8494C37 36.3132 35.7836 37.4995 34.2828 37.4995H2.71719C1.21637 37.4995 0 36.3132 0 34.8494V3.14964ZM11.4307 31.4731V14.7653H5.87838V31.4731H11.4307ZM8.65569 12.4829C10.5913 12.4829 11.7961 11.2018 11.7961 9.59689C11.7614 7.95732 10.5936 6.71089 8.69269 6.71089C6.79181 6.71089 5.55 7.95964 5.55 9.59689C5.55 11.2018 6.75481 12.4829 8.61869 12.4829H8.65569ZM20.0054 31.4731V22.1422C20.0054 21.6427 20.0424 21.1432 20.1904 20.7871C20.5905 19.7904 21.5039 18.7567 23.0394 18.7567C25.049 18.7567 25.8514 20.2876 25.8514 22.5353V31.4731H31.4037V21.8901C31.4037 16.7564 28.6658 14.3699 25.012 14.3699C22.0659 14.3699 20.7454 15.9886 20.0054 17.1287V17.1865H19.9684L20.0054 17.1287V14.7653H14.4554C14.5248 16.3332 14.4554 31.4731 14.4554 31.4731H20.0054Z"
 							fill="" />
 					</svg>
-					<a href="https://www.linkedin.com/in/sindy-de-jong-049057226/"> <strong>linkedin.com/sindy-de-jong</strong> </a>
-				</li>
+					 linkedin.com/sindy-de-jong
+				</li> </a>
 
-           <li> 
+          <a href="https://www.linkedin.com/in/sindy-de-jong-049057226/"> <li> 
             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="#090e6b">
   <path d="M17.5 0C15.2019 0 12.9262 0.463889 10.803 1.36518C8.67984 2.26647 6.75066 3.58752 5.12563 5.25289C1.84374 8.61625 0 13.178 0 17.9345C0 25.8615 5.0225 32.5869 11.97 34.9722C12.845 35.1157 13.125 34.5597 13.125 34.0755V31.0446C8.2775 32.1206 7.245 28.6413 7.245 28.6413C6.44 26.561 5.3025 26.005 5.3025 26.005C3.71 24.893 5.425 24.9289 5.425 24.9289C7.175 25.0545 8.1025 26.7762 8.1025 26.7762C9.625 29.5022 12.1975 28.6952 13.195 28.2647C13.3525 27.099 13.8075 26.3099 14.2975 25.8615C10.4125 25.4131 6.335 23.8708 6.335 17.0377C6.335 15.047 7 13.4509 8.1375 12.1775C7.9625 11.7291 7.35 9.86396 8.3125 7.44281C8.3125 7.44281 9.7825 6.95858 13.125 9.27212C14.5075 8.87756 16.0125 8.68028 17.5 8.68028C18.9875 8.68028 20.4925 8.87756 21.875 9.27212C25.2175 6.95858 26.6875 7.44281 26.6875 7.44281C27.65 9.86396 27.0375 11.7291 26.8625 12.1775C28 13.4509 28.665 15.047 28.665 17.0377C28.665 23.8887 24.57 25.3952 20.6675 25.8436C21.2975 26.3995 21.875 27.4935 21.875 29.1615V34.0755C21.875 34.5597 22.155 35.1336 23.0475 34.9722C29.995 32.569 35 25.8615 35 17.9345C35 15.5793 34.5474 13.2472 33.6679 11.0712C32.7884 8.89534 31.4994 6.91825 29.8744 5.25289C28.2493 3.58752 26.3202 2.26647 24.197 1.36518C22.0738 0.463889 19.7981 0 17.5 0Z" fill=""/>
 </svg>
-       <a href="https://www.linkedin.com/in/sindy-de-jong-049057226/"> <strong>github.com/sindydejong</strong> </a>
-      </li>
+        github.com/sindydejong
+      </li> </a>
 
     </ul>
     
     <img class="gif" src="/assets/pc-coding_2.gif" alt="Animated showcase" />
     
-    
+    <p class="slotzin"> Dit portfolio is ontworpen en ontwikkeld door mijzelf. <br>
+      Hierbij heb ik gebruik gemaakt van VUE.JS.  </p>
   </footer>
 </template>
 
@@ -77,31 +78,34 @@ footer {
     margin: 0;
     padding: 1em;
     
+    a {
+      font-family: 'montserrat', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-decoration: none;
+    }
+    
     li {
-      margin: 1em;
       display: flex;
       align-items: center;
-      background-color: white;
       padding: 1em;
       border-radius: 10px;
-      
-      a {
-        font-family: 'montserrat', sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        text-decoration: none;
-        margin-left: 9px;
-        
+      background-color: white;
+      margin-bottom: 20px;
+      gap: 10px;
+      color: $color-main;
+      svg {
+        width: 30px;
+        height: 30px;
+        fill: $color-main;
       }
-      
-      strong {
-        color: black;
-        text-decoration: none;
-        
-        &:hover {
-          color: $color-interaction;
+      &:hover {
+        background-color: $color-main;
+        color: white;
+        svg {
+          fill: white;
         }
       }
     }
@@ -109,9 +113,15 @@ footer {
   
   .gif {
     width: auto;
-    height: 150px;
+    height: 120px;
   }
   
+  .slotzin {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+  }
   
 }
 
@@ -119,6 +129,13 @@ footer {
 
   footer h1 {
     font-size: 2.5em;
+    margin-bottom: 1em;
   }
+
+   .gif {
+    width: auto;
+    height: 100px !important;
+  }
+
 }
 </style>
