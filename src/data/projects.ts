@@ -33,7 +33,7 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: 'grid & kleur',
+    name: 'neo',
     image: '/assets/images/neo.png',
     video: 'https://www.youtube-nocookie.com/embed/e0EmUWmckbA?si=2JJsj-AjDEpYgUyH',
     title: 'Grid & Kleur: NEO - Genderneutrale kleding',
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     vak: 'Beweging & Interactie',
     duur: '2 weken',
     datum: '20 mei 2025',
-    skills: ['Adobe Illustrator', 'Adobe After Effects'],
+    skills: ['Adobe Illustrator', 'Adobe After Effects', 'Animeren', 'Vector drawing', 'Rigging'],
     opdracht: `<p>In dit vak heb ik mij verdiept in animatie en motion design als essentieel onderdeel van interactieve interfaces. Ik leerde hoe animatie niet alleen informatie ondersteunt, maar ook interacties vloeiender, begrijpelijker en aantrekkelijker maakt. Tijdens werkcolleges werkte ik aan praktische oefeningen en opdrachten waarbij ik kennismaakte met animatieprincipes, storyboardtechnieken, dynamische iconensets en verschillende tools, waaronder nieuwe AI-tools.</p>
       <br>
       <p>De nadruk lag op creatieve ontwikkeling, stijl, en het maken van doordachte keuzes in techniek en vorm. Het einddoel was het realiseren van een animated interface of interactieve animatie met een sterk visueel concept, gepresenteerd als prototype. </p>`,
@@ -145,9 +145,9 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     name: 'magic_8ball',
     image: '/assets/images/8ball.webp',
     video: 'https://www.youtube-nocookie.com/embed/p1J3UeUW74w?si=Rty6eYxkpXvkMucj',
-    title: 'Magic 8-Ball: interactieve applicatie',
+    title: 'Magic 8-Ball: Interactieve Applicatie',
     category: ['JAVASCRIPT'],
-    hoofdzaak: 'Front-end development, interactie design',
+    hoofdzaak: 'Front-end development, Interactie Design',
     vak: 'Inleiding programmeren',
     duur: '6 weken',
     datum: '4 juni 2022',
@@ -237,19 +237,18 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     eindproduct_link:
       'https://www.figma.com/proto/aQmIdTPCiTE9ey1NLvqdST/Typo?page-id=0%3A1&node-id=97-2&viewport=912%2C57%2C0.07&t=BFebCToSnNdNLI0i-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=97%3A2&hide-ui=1'
   },
-    {
+  {
     name: 'springtracking',
     image: '/assets/images/springtracking.png',
     video: '',
-    title: 'Springtracking 2.0: to the stars and beyond',
+    title: 'Springtracking 2.0: To the Stars and Beyond',
     category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, User Experience Design',
     vak: 'Korte stage 2025',
     duur: '10 weken',
     datum: '18 juni 2024',
-    skills: ['Figma', 'UX', 'UI','Klantcontact', 'Prototyping'],
-    opdracht:
-      `<p> Dit was een stageproject bij het bedrijf Nalta voor hun klant Springtracking, dat een onderdeel is van PostNL International. Hierbij ik de bestaande website heb geanalyseerd en verbeterd. Ik heb de gebruikerservaring geoptimaliseerd en de visuele elementen vernieuwd om de website gebruiksvriendelijker en aantrekkelijker te maken. Tussendoor heb ik direct met de business managers van PostNL International samengewerkt in feedbacksessies. </p>
+    skills: ['Figma', 'UX', 'UI', 'Klantcontact', 'Prototyping'],
+    opdracht: `<p> Dit was een stageproject bij het bedrijf Nalta voor hun klant Springtracking, dat een onderdeel is van PostNL International. Hierbij ik de bestaande website heb geanalyseerd en verbeterd. Ik heb de gebruikerservaring geoptimaliseerd en de visuele elementen vernieuwd om de website gebruiksvriendelijker en aantrekkelijker te maken. Tussendoor heb ik direct met de business managers van PostNL International samengewerkt in feedbacksessies. </p>
       <br>
       Een aantal belangrijke eisen waren: 
       <br>
@@ -259,7 +258,10 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
       <li> Bij het ontwerp moet er rekening worden gehouden met hoe bezorging bij een pick-up point eruit ziet. </li>
       </ul>
       `,
-    opdracht_img1: ['/assets/images/springtracking/springtracking_1.png', '/assets/images/springtracking/springtracking_2.png'],
+    opdracht_img1: [
+      '/assets/images/springtracking/springtracking_1.png',
+      '/assets/images/springtracking/springtracking_2.png'
+    ],
     opdracht_img1_beschrijving: 'Dit is hoe Springtracking er nu uitziet. ',
     proces: `<p> Deze opdracht heb ik in drie delen aangepakt. </p>
       <br>
@@ -273,14 +275,25 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
       <br>
       <p> Het ontwerpen van de stijl was een erg leuk en iteratief proces. Ik had natuurlijk al een rode draad vanuit de bestaande huisstijl, maar ik heb ook veel nieuwe elementen toegevoegd om het ontwerp fris en modern te maken. </p>
       `,
-    proces_img1: ['/assets/images/springtracking/startd1.png', '/assets/images/springtracking/startd2.png', '/assets/images/springtracking/startd3.png', '/assets/images/springtracking/startd4.png', '/assets/images/springtracking/startd5.png'],
+    proces_img1: [
+      '/assets/images/springtracking/startd1.png',
+      '/assets/images/springtracking/startd2.png',
+      '/assets/images/springtracking/startd3.png',
+      '/assets/images/springtracking/startd4.png',
+      '/assets/images/springtracking/startd5.png'
+    ],
     proces_img1_beschrijving:
       'Dit is de startpagina. Klik door de vorige versies heen om de verschillende iteraties van het ontwerp te zien. Al deze versies heb ik laten zien aan de klant en op basis van feedback heb ik het ontwerp verder verbeterd.',
-    proces_img2: ['/assets/images/springtracking/progressbar1.png', '/assets/images/springtracking/progressbar2.png', '/assets/images/springtracking/progressbar3.png'],
+    proces_img2: [
+      '/assets/images/springtracking/progressbar1.png',
+      '/assets/images/springtracking/progressbar2.png',
+      '/assets/images/springtracking/progressbar3.png'
+    ],
     proces_img2_beschrijving:
       'Dit is de tracking timeline. Het is een visuele weergave van de voortgang van een pakket, met iconen die de verschillende stadia van het verzendproces aangeven. De kleuren en iconen zijn ontworpen om een ruimte-thema te weerspiegelen, wat aansluit bij de identiteit van Springtracking. Klik door de variaties heen om de verschillende stadia van het proces te zien.',
     eindproduct:
-      'Dit uitdaagende en zeer leuke project heeft mij veel geleerd over responsive ontwerpen met meerdere eisen en aandachtspunten die in het ontwerp moeten komen. Ik heb veel geitereerd en samengewerkt met collegas. Ook heb ik direct meeting gehad met de klant, waar ik erg veel heb geleerd. Mijn eindproduct is interactief figma design met daarin de vernieuwde versie van de website. ',
+      `<p>Dit uitdaagende en zeer leuke project heeft mij veel geleerd over responsive ontwerpen met meerdere eisen en aandachtspunten die in het ontwerp moeten komen. Ik heb veel geïtereerd en samengewerkt met collegas. Ook heb ik direct meeting gehad met de klant, waar ik erg veel heb geleerd. </p> 
+      <br> <p> Mijn eindproduct is interactief Figma design met daarin de vernieuwde versie van de website. Deze heb ik mogen presenteren aan de klant en zij waren erg enthousiast over het resultaat. </p>`,
     eindproduct_video: 'https://www.youtube.com/embed/sJj7DfIxfig?si=q51ViAzcN28tH1Vl'
   },
   {
@@ -293,17 +306,44 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     vak: 'Bijbaan bij Nalta Software',
     duur: '6 maanden parttime',
     datum: '12 februari 2025',
-    skills: ['Figma', 'UX', 'UI', 'Front-end development','VUE', 'prototyping'],
-    opdracht: 'Na mijn korte stage bij Nalta Software ben ik daar blijven werken als parttime designer/developer. Het bedrijf wilde graag een fileshare webapplicatie waarmee makkelijk en veilig bestanden met elkaar en klanten gedeeld konden worden. Deze webapplicatie heb ik ontworpen en ontwikkeld, met ondersteuning van een aantal kennisrijke collega`s.',
-    proces: ` <p> Het ontwerp is gebaseerd op de principes van Visual Interface Design en User Experience Design. Ik heb ervoor gezorgd dat de interface intuïtief is, met duidelijke navigatie en visuele hiërarchie. De applicatie is ook responsive, zodat deze goed werkt op verschillende apparaten en schermformaten. </p>
+    skills: ['Figma', 'UX', 'UI', 'Front-end development', 'VUE', 'Prototyping'],
+    opdracht:
+      `<p> Na mijn korte stage bij Nalta Software ben ik daar blijven werken als parttime designer/developer. Het bedrijf wilde graag een fileshare webapplicatie waarmee makkelijk en veilig bestanden met elkaar en klanten gedeeld konden worden. Deze webapplicatie heb ik ontworpen en ontwikkeld, met ondersteuning van een aantal kennisrijke collega's. </p>
+      <br> 
+    <p> De Fileshare applicatie was slecht één onderdeel van een groter project, namelijk de Nalta Client Portal. Dit is een platform waar klanten van Nalta Software hun projecten kunnen beheren en communiceren met de ontwikkelaars. De Fileshare applicatie is een van de belangrijkste onderdelen van dit platform, omdat het de mogelijkheid biedt om bestanden te delen en samen te werken aan projecten. </p>
+
       <br>
-      <p> Tijdens het ontwikkelingsproces heb ik gebruik gemaakt van Figma voor het ontwerpen van de interface en Vue.js voor de front-end ontwikkeling. Ik heb ook aandacht besteed aan toegankelijkheid, zodat de applicatie bruikbaar is voor mensen met verschillende vaardigheden en behoeften. </p>`,
-    proces_img1: ['/assets/images/springtracking/startd1.png', '/assets/images/springtracking/startd2.png', '/assets/images/springtracking/startd3.png', '/assets/images/springtracking/startd4.png', '/assets/images/springtracking/startd5.png'],
-    proces_img1_beschrijving: 'ded',
-    eindproduct: 'Beschrijving van het eindproduct ',
+      <p> De applicatie moest voldoen aan de volgende eisen: </p>
+      <ul>
+        <li>Exclusief voor desktop </li>
+        <li>Simpel en duidelijk design </li>
+        <li>Werken vanuit een bepaalde data structuur  </li>
+      </ul>
+      `,
+    proces: ` <p> Tijdens het ontwikkelingsproces heb ik gebruik gemaakt van Figma voor het ontwerpen van de interface en Vue.js voor de front-end ontwikkeling.</p>
+      <br>
+      <p> De uitdaging zat voor mij in het ontwerpen van een interface waarbij het duidelijk is dat je vanuit je project-keuze door kan navigeren naar verschillende applicaties, in plaats van binnen een applicatie steeds een project kiezen. </p>
+      <br>
+      <p> Binnen het developen van de applicatie was het uitdagende om data-gericht te ontwikkelen. De structuren zo leggen dat enkel nog de API's ingevuld moesten worden. Hiervoor heb ik gewerkt met componenten en mock-API's totdat de echte API's werkend waren.  </p>`,
+    proces_img1: [
+      '/assets/images/fileshare/fileshare_projects.png',
+    ],
+    proces_img1_beschrijving: 'Na het inloggen kom je op de Select Project pagina. Via een API worden de projecten opgehaald en weergegeven. Hier kan de gebruiker een project selecteren om verder te gaan.',
+    proces_img2: [
+      '/assets/images/fileshare/fileshare_nav_open.png',
+      '/assets/images/fileshare/fileshare_nav_closed.png',
+    ],
+    proces_img2_beschrijving:'Bij het maken van de applicatie heb ik ervoor gekozen om een zijbalk te gebruiken voor de navigatie. Deze is altijd zichtbaar, maar kan ook worden ingeklapt. Dit zorgt voor een overzichtelijke interface en maakt het makkelijk om tussen verschillende onderdelen van de applicatie te navigeren.',
+    proces_img3: '/assets/images/fileshare/fileshare_recipients.png',
+    proces_img3_beschrijving: 'Op de pagina waar je een bestand kunt delen, kun je een lijst van ontvangers zien. Deze ontvangers zijn gebruikers die toegang hebben tot het project. Oo hier wordt gebruik gemaakt van een API om de ontvangers op te halen en weer te geven.',
+    eindproduct: ` <p> Het eindproduct is een werkende webapplicatie die gebruikers in staat stelt om bestanden te delen en samen te werken aan projecten. Daarnaast is de basis gezet om de applicatie uit te breiden met meerdere functionaliteiten, zoals projectbeheer en andere tools om uiteindelijk de Client Portal te realiseren. </p>
+      <br>
+      <p> Het was een uitdagend project dat mij in een korte tijd een boost in mijn front-end ontwikkeling heeft gegeven. Ik heb veel geleerd over het werken met Vue.js, hiërarchiën en datastructuren door het daarwerkelijk maken van een herbruikbare shell voor de volgende functionaliteiten, koppelen van API's aan de front-end tot aan een werkende applicatie. </p> 
+    `,
     eindproduct_video: 'https://www.youtube.com/embed/CSPnTIkycmc?si=DtuZNXiRY4BLZ6vo',
+    eindproduct_img: '/assets/images/fileshare/fileshare_styleguide.png',
   },
-    {
+  {
     name: 'outsider originals',
     image: '/assets/images/outsider_originals.png',
     video: '',
@@ -316,10 +356,9 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     skills: ['Product development/design', 'Branding', 'Sales', 'Marketing'],
     opdracht: 'Opdrachtbeschrijving .',
     eindproduct: 'Beschrijving van het eindproduct '
-  },
-
+  }
 ]
 
 export const orderedProjects = projectOrder
   .map((name) => projects.find((p) => p.name === name))
-  .filter((project): project is Project => project !== undefined);
+  .filter((project): project is Project => project !== undefined)
