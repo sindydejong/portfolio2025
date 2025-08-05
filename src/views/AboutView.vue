@@ -16,10 +16,10 @@
 <section class="hobbies">
 <h2> Mijn Hobby's </h2>
 <ul> 
-<li>Gitaar spelen🎸</li>
-<li>Concerten bezoeken🎤</li>
-<li>Gamen🎮</li>
-<li>Bier drinken🍺</li>
+<li>Gitaar spelen 🎸</li>
+<li>Concerten bezoeken 🎤</li>
+<li>Gamen 🎮</li>
+<li>Bier drinken 🍺</li>
 </ul>
 
 </section>
@@ -27,7 +27,8 @@
 
 <section class="funfact">
 <h2> Fun fact </h2>
-<p> Ik heb mijn eigen bier bedrijf! <br> Bekijk de <a href="https://www.outsideroriginals.nl" target="_blank" rel="noopener"> website</a> & <a href="https://www.instagram.com/outsideroriginals/" target="_blank" rel="noopener">Instagram</a> </p>
+<p> Ik heb mijn eigen bier bedrijf! Het avontuur is in september 2024 begonnen bij een minor in ondernemerschap. Sindsdien staat mijn berging vol met dozen bier. Het creëren van een merk en product van A tot Z heeft mij in een paar maanden meer kennis gebracht dan theorie ooit zou kunnen.<br> Bekijk de <a href="https://www.outsideroriginals.nl" target="_blank" rel="noopener"> website</a> & <a href="https://www.instagram.com/outsideroriginals/" target="_blank" rel="noopener">Instagram</a>  of  <RouterLink :to="{ name: 'ProjectDetail', params: { name: 'outsider originals' } }">lees meer over het project</RouterLink>.
+</p>
 <div>
 <img src="/assets/images/bier_sindy.jpg" alt="Beer photo" />
 <img src="/assets/images/bier_buiten.jpg" alt="Beer photo" />
@@ -47,7 +48,7 @@
 
 <a href="/assets/cv_sindy_2025.pdf" target="_blank" rel="noopener" class="cv-box">
   <section class="cv-link">
-    <span> Bekijk mijn CV</span>
+    <span> Bekijk mijn CV </span>
   </section>
 </a>
 
@@ -101,6 +102,21 @@ h1 {
   }
 }
 
+.funfact p a {
+  text-decoration: underline;
+  color: blue;
+  &:visited {
+    color: blue;
+  }
+  &:hover {
+    color: $color-interaction;
+    cursor: alias;
+  }
+  &:last-of-type {
+    cursor: pointer;
+  }
+}
+
 .funfact div {
   display: flex;
   gap: 1em;
@@ -110,7 +126,7 @@ h1 {
 .funfact div img {
   flex: 1; // zorgt dat beide afbeeldingen gelijk verdelen
   height: auto;
-  width: 50%;
+  width: 45%;
   object-fit: cover; // zorgt dat ze netjes bijgesneden worden zonder vervorming
   border-radius: 8px;
 }
