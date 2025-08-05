@@ -161,7 +161,7 @@ h3 {
 }
 .card-btn {
   margin-top: 1.5rem;
-  background: #f8982b;
+  background: $color-interaction;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -171,7 +171,9 @@ h3 {
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0,0,0,0.07);
   transition: background 0.2s;
-  &:hover { background: #ffb24d; }
+  &:hover {
+    background-color: darken($color-interaction, 10%); 
+  }
 }
 
 @media (max-width: 900px) {
