@@ -357,14 +357,25 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     <br>
     <p> Dit project omvatte het hele proces van productontwikkeling, branding, sales en het opzetten van een webshop. Dit avontuur heeft mij veel geleerd over ondernemerschap, productontwikkeling en de uitdagingen van het runnen van een bedrijf. </p>`,
     opdracht_img1: '/assets/images/vlierefluiter/vlier_1.avif',
-  
-    proces: 'Procesbeschrijving .',
+    proces: `Het proces is kortgezegd in 3 stappen verlopen:
+      <ul>
+        <li>Product ontwikkeling </li>
+        <li>Branding </li>
+        <li>Sales</li>
+      </ul>
+<br>
+    <p> Binnen het bedrijf deden wij veel samen, maar achters de schermen heeft iedereen zijn eigen verantwoordelijkheden. Waar ik volledig zelf de verantwoordelijkheid over had was  het maken van de website/webshop in Wixstudio. Ook was ik verantwoordelijk voor de boekhouding en het juridische. </p>
+    <br>
+      <p> Zo zijn wij stap voor stap met enorm veel iteraties tot een product, merkidentiteit en salesstrategie gekomen. Wij vinden dat het een uniek en herkenbaar merk is geworden. </p>
+    `,
     proces_img1: ['/assets/images/vlierefluiter/product_1.jpg', '/assets/images/vlierefluiter/product_2.jpg', '/assets/images/vlierefluiter/product_3.jpg', '/assets/images/vlierefluiter/product_4.jpg'],
-    proces_img1_beschrijving: 'Product',
+    proces_img1_beschrijving: 'De Vlierefluiter is een blond bier met een frisse, fruitige smaak. De smaken worden gevormd door biologische perensap, witte druivensap en vlierbloesem. Het is gebrouwen met liefde en aandacht voor detail. De naam "De Vlierefluiter" verwijst naar de speelse en zorgeloze sfeer die we wilden uitstralen met ons bier en natuurlijk met een V voor vlierbloesem.',
     proces_img2: ['/assets/images/vlierefluiter/branding_1.jpg', '/assets/images/vlierefluiter/branding_2.jpg', '/assets/images/vlierefluiter/branding_3.jpg'],
-    proces_img2_beschrijving: 'Branding',
+    proces_img2_beschrijving: 'Het merk "Outsider Originals" is ontstaan vanuit de gedachte dat wij onszelf niet willen conformeren aan de massa. Wij zijn niet het beeld wat je voor je ziet zodra je bierbrouwers hoort, maar dat maakt ons uniek. Het merk staat voor originaliteit, creativiteit en duurzaamheid. Wij laten daarom ook graag onze biologische ingrediënten zien en zijn trots op het feit dat het CO2-neutraal is gebrouwen. ',
     proces_img3: '/assets/images/vlierefluiter/webshop.png',
-    proces_img3_beschrijving: 'Sales',
+    proces_img3_beschrijving: ` <p> Sales hebben wij gedaan door middel van een webshop, waar wij de Vlierefluiter en andere merchandise verkopen. De webshop is gemaakt in Wixstudio, waar ik zelf de volledige verantwoordelijkheid over had. Het was een leerzaam proces om de webshop te bouwen en te optimaliseren voor een goede gebruikerservaring. </p>
+    <br>
+    <p> Nadat vrienden en familie waren los gegaan in de webshop, was het tijd om de Vlierefluiter ook aan de buitenwereld te presenteren. Dit hebben wij gedaan door simpel weg in onze thuissteden langs allerlei horeca/winkels te gaan. </p> `,
     eindproduct: ` <p> Met volle trots kijk ik terug op het avontuur. Ik heb nog nooit zoveel geleerd in zo'n korte tijd. Van niks naar drie maanden later meer dan 3300 flesjes van mijn eigen bier in handen te hebben. De Vlierefluiter is meer dan een drankje, het is een heel merk, bijna een soort club, geworden. </p>
     <p> 
     <br>

@@ -111,15 +111,15 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
           <div class="proces-images">
             <div v-if="project.proces_img1" class="image-item">
               <ImageDisplay :source="project.proces_img1" altText="Proces afbeelding 1" />
-              <p v-if="project.proces_img1_beschrijving">{{ project.proces_img1_beschrijving }}</p>
+              <p v-if="project.proces_img1_beschrijving" v-html="project.proces_img1_beschrijving"></p>
             </div>
             <div v-if="project.proces_img2" class="image-item">
               <ImageDisplay :source="project.proces_img2" altText="Proces afbeelding 2" />
-              <p v-if="project.proces_img2_beschrijving">{{ project.proces_img2_beschrijving }}</p>
+              <p v-if="project.proces_img2_beschrijving" v-html="project.proces_img2_beschrijving"></p>
             </div>
             <div v-if="project.proces_img3" class="image-item">
               <ImageDisplay :source="project.proces_img3" altText="Proces afbeelding 3" />
-              <p v-if="project.proces_img3_beschrijving">{{ project.proces_img3_beschrijving }}</p>
+              <p v-if="project.proces_img3_beschrijving" v-html="project.proces_img3_beschrijving"></p>
             </div>
           </div>
           <div class="video-container" v-if="project.proces_video">
