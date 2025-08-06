@@ -65,7 +65,7 @@ function handleImageLoad(event: Event) {
 .slider-image img.portrait {
   max-height: 90svh;
   width: auto;
-  max-width: none; /* overschrijft max-width zodat width auto werkt */
+  max-width: 100%; /* overschrijft max-width zodat width auto werkt */
 }
 
 .slider-arrow {
