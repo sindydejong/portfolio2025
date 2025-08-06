@@ -24,18 +24,16 @@ export interface Project {
   proces_img3_beschrijving?: string
   proces_video?: string
   eindproduct: string
-  video?: string
-  video2?: string
   eindproduct_link?: string
   eindproduct_img?: string | string[]
   eindproduct_video?: string
+  eindproduct_video2?: string
 }
 
 export const projects: Project[] = [
   {
     name: 'neo',
     image: '/assets/images/neo.png',
-    video: 'https://www.youtube-nocookie.com/embed/e0EmUWmckbA?si=2JJsj-AjDEpYgUyH',
     title: 'Grid & Kleur: NEO - Genderneutrale kleding',
     category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, UX/UI Design, Brand Design, Prototyping',
@@ -58,13 +56,13 @@ export const projects: Project[] = [
       'De naam en het logo van Neo heb ik zelf ontworpen. Het logo bestaat uit NEO in een sterk capitaal lettertype. Door het logo heen gaan een soort vallende sterren met hun sporen. Neo staat voor nieuw, waardoor ik dit perfect vind passen bij de vallende sterren. die voelen als een nieuw begin.',
     eindproduct:
       'Mijn eindproduct is een digitale interactieve prototype van de website, gepresenteerd in Figma. Dit prototype laat de gebruikerservaring en de visuele elementen van de website zien.',
+    eindproduct_video: 'https://www.youtube-nocookie.com/embed/e0EmUWmckbA?si=2JJsj-AjDEpYgUyH',
     eindproduct_link:
       'https://www.figma.com/proto/gI1pxWWKL5Uf52a6DZqdL4/Neo?page-id=0%3A1&node-id=13-2&p=f&viewport=464%2C199%2C0.06&t=YoE1lyUcePMwDvzr-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=13%3A2'
   },
   {
     name: 'beweging & interactie',
     image: '/assets/images/beweging.png',
-    video: '',
     title: 'Beweging & Interactie: Animatie van mijzelf',
     category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, Vector drawing, Animatie',
@@ -105,7 +103,6 @@ export const projects: Project[] = [
   {
     name: 'red hot chili peppers',
     image: '/assets/images/rhcp.webp',
-    video: '',
     title: 'Red Hot Chili Peppers: Screenreader friendly',
     category: ['FRONT-END'],
     hoofdzaak: 'Front-end development, toegankelijkheid en responsiveness',
@@ -144,7 +141,6 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
   {
     name: 'magic_8ball',
     image: '/assets/images/8ball.webp',
-    video: 'https://www.youtube-nocookie.com/embed/p1J3UeUW74w?si=Rty6eYxkpXvkMucj',
     title: 'Magic 8-Ball: Interactieve Applicatie',
     category: ['JAVASCRIPT'],
     hoofdzaak: 'Front-end development, Interactie Design',
@@ -153,16 +149,15 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     datum: '4 juni 2022',
     skills: ['Javascript', 'CSS', 'HTML', 'Adobe Illustrator'],
     opdracht:
-      'Een zelfgemaakte interactieve Javascript applicatie ontwikkelt zonder het gebruik van libraries of frameworks. Het bevat verschillende type interactiemethoden en een complexe serie aan input en output tussen de gebruiker en de computer. Tijdens een mondeling moest ik de werking goed kunnen uitleggen.',
+    'Een zelfgemaakte interactieve Javascript applicatie ontwikkelt zonder het gebruik van libraries of frameworks. Het bevat verschillende type interactiemethoden en een complexe serie aan input en output tussen de gebruiker en de computer. Tijdens een mondeling moest ik de werking goed kunnen uitleggen.',
     eindproduct:
-      'Mijn concept heet de Magic 8-Ball. Dit is een interactieve applicatie waarbij de gebruiker kan kiezen of de bal een random antwoord geeft of een random getal. Als er wordt gekozen voor een getal dan kan de gebruiker het bereik van de cijfers aangeven, zoals een getal tussen de 0 en 99. Het kost mana om de bal te gebruiken. Je kunt de mana opladen door op een maantje te klikken. ',
+    'Mijn concept heet de Magic 8-Ball. Dit is een interactieve applicatie waarbij de gebruiker kan kiezen of de bal een random antwoord geeft of een random getal. Als er wordt gekozen voor een getal dan kan de gebruiker het bereik van de cijfers aangeven, zoals een getal tussen de 0 en 99. Het kost mana om de bal te gebruiken. Je kunt de mana opladen door op een maantje te klikken. ',
+    eindproduct_video: 'https://www.youtube-nocookie.com/embed/p1J3UeUW74w?si=Rty6eYxkpXvkMucj',
     eindproduct_link: 'https://sindydejong.github.io/Magicball/'
   },
   {
     name: 'jamties',
     image: '/assets/images/jamties.webp',
-    video: 'https://www.youtube-nocookie.com/embed/hzGr8m0BfvA?si=ZYdhdQEDsgymztoW"',
-    video2: 'https://www.youtube-nocookie.com/embed/A61T92TfQ68?si=-vf6280KcGcaf2O8',
     title: 'JamTies: Muziekaal interactief spel',
     category: ['DESIGN'],
     hoofdzaak: 'De wereld verbeteren door mensen met elkaar te verbinden met behulp van muziek',
@@ -171,15 +166,15 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     datum: '30 juni 2022',
     skills: ['Adobe XD', 'Adobe Illustrator', 'Product development', 'Interactie design'],
     opdracht:
-      'Voor dit project moest ik gedurende 3 weken met een groepje aan de slag gaan om een digitaal en/of fysiek product te ontwikkelen die bijdraagt aan een betere wereld. Wij werden op basis van onze gezamenlijke passie, muziek, bij elkaar in de klas gezet en mochten zelf trios vormen.  ',
+    'Voor dit project moest ik gedurende 3 weken met een groepje aan de slag gaan om een digitaal en/of fysiek product te ontwikkelen die bijdraagt aan een betere wereld. Wij werden op basis van onze gezamenlijke passie, muziek, bij elkaar in de klas gezet en mochten zelf trios vormen.  ',
     eindproduct:
-      'JamTies is een interactief muzikaal kletsspel dat spelers aanmoedigt om hun interesses en gevoelens te delen. Voor nu is JamTies gericht om op een festivalsetting gespeeld te worden. Denk hierbij aan festivalgangers die tussen optredens door tijd hebben voor leuke activiteiten en spelletjes.',
-    eindproduct_link: ''
+    'JamTies is een interactief muzikaal kletsspel dat spelers aanmoedigt om hun interesses en gevoelens te delen. Voor nu is JamTies gericht om op een festivalsetting gespeeld te worden. Denk hierbij aan festivalgangers die tussen optredens door tijd hebben voor leuke activiteiten en spelletjes.',
+    eindproduct_video: 'https://www.youtube-nocookie.com/embed/hzGr8m0BfvA?si=ZYdhdQEDsgymztoW',
+    eindproduct_video2: 'https://www.youtube-nocookie.com/embed/A61T92TfQ68?si=-vf6280KcGcaf2O8',
   },
   {
     name: 'beeldtaal',
     image: '/assets/images/beeldtaal.png',
-    video: '',
     title: 'Beeldtaal: Semiotiek, gestalt en retorica',
     category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design',
@@ -199,7 +194,6 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
   {
     name: 'meesterproef vid',
     image: '/assets/images/meesterproef.png',
-    video: '',
     title: 'Meesterproef VID: Interactieve ervaring drogeren',
     category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, Storytelling, Animeren',
@@ -222,7 +216,6 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
   {
     name: 'typografie',
     image: '/assets/images/typespecimen.png',
-    video: '',
     title: 'Typografie: Type Specimen Broadway font',
     category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, typografie',
@@ -240,7 +233,6 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
   {
     name: 'springtracking',
     image: '/assets/images/springtracking.png',
-    video: '',
     title: 'Springtracking 2.0: To the Stars and Beyond',
     category: ['DESIGN'],
     hoofdzaak: 'Visual Interface Design, User Experience Design',
@@ -294,12 +286,20 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     eindproduct:
       `<p>Dit uitdaagende en zeer leuke project heeft mij veel geleerd over responsive ontwerpen met meerdere eisen en aandachtspunten die in het ontwerp moeten komen. Ik heb veel geïtereerd en samengewerkt met collegas. Ook heb ik direct meeting gehad met de klant, waar ik erg veel heb geleerd. </p> 
       <br> <p> Mijn eindproduct is interactief Figma design met daarin de vernieuwde versie van de website. Deze heb ik mogen presenteren aan de klant en zij waren erg enthousiast over het resultaat. </p>`,
-    eindproduct_video: 'https://www.youtube.com/embed/sJj7DfIxfig?si=q51ViAzcN28tH1Vl'
-  },
+      eindproduct_img: [
+        '/assets/images/springtracking/desktop/desk_1.png',
+        '/assets/images/springtracking/desktop/desk_2.png',
+        '/assets/images/springtracking/desktop/desk_3.png',
+        '/assets/images/springtracking/desktop/desk_4.png',
+        '/assets/images/springtracking/desktop/desk_5.png',
+        '/assets/images/springtracking/desktop/desk_6.png',
+        '/assets/images/springtracking/desktop/desk_7.png',
+      ],
+      eindproduct_video: 'https://www.youtube.com/embed/sJj7DfIxfig?si=q51ViAzcN28tH1Vl',
+    },
   {
     name: 'fileshare',
     image: '/assets/images/fileshare.png',
-    video: '',
     title: 'Fileshare: Sharing is Caring',
     category: ['DESIGN', 'FRONT-END'],
     hoofdzaak: 'Visual Interface Design, User Experience Design, Front-end development',
@@ -346,7 +346,6 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
   {
     name: 'outsider originals',
     image: '/assets/images/outsider_originals.png',
-    video: '',
     title: 'Outsider Originals: De Vlierefluiter',
     category: ['DESIGN'],
     hoofdzaak: 'Product development/design, Branding, Sales, Website design',
@@ -354,8 +353,26 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     duur: '5 maanden',
     datum: '09-2024 tot 02-2025',
     skills: ['Product development/design', 'Branding', 'Sales', 'Marketing'],
-    opdracht: 'Opdrachtbeschrijving .',
-    eindproduct: 'Beschrijving van het eindproduct '
+    opdracht: `<p> In mijn derde jaar van de studie CMD heb ik gekozen om de minor ondernemerschap te volgen. Tijdens deze minor heb ik de kans gekregen om mijn eigen bedrijf te starten en te werken aan een echt product. Samen met een vriendin hadden wij het idee was om een eigen biermerk te ontwikkelen. Dit is uiteindelijk (na tig variaties) "Outsider Originals" geworden met het biertje "De Vlierefluiter". </p>
+    <br>
+    <p> Dit project omvatte het hele proces van productontwikkeling, branding, sales en het opzetten van een webshop. Dit avontuur heeft mij veel geleerd over ondernemerschap, productontwikkeling en de uitdagingen van het runnen van een bedrijf. </p>`,
+    opdracht_img1: '/assets/images/vlierefluiter/vlier_1.avif',
+  
+    proces: 'Procesbeschrijving .',
+    proces_img1: ['/assets/images/vlierefluiter/product_1.jpg', '/assets/images/vlierefluiter/product_2.jpg', '/assets/images/vlierefluiter/product_3.jpg', '/assets/images/vlierefluiter/product_4.jpg'],
+    proces_img1_beschrijving: 'Product',
+    proces_img2: ['/assets/images/vlierefluiter/branding_1.jpg', '/assets/images/vlierefluiter/branding_2.jpg', '/assets/images/vlierefluiter/branding_3.jpg'],
+    proces_img2_beschrijving: 'Branding',
+    proces_img3: '/assets/images/vlierefluiter/webshop.png',
+    proces_img3_beschrijving: 'Sales',
+    eindproduct: ` <p> Met volle trots kijk ik terug op het avontuur. Ik heb nog nooit zoveel geleerd in zo'n korte tijd. Van niks naar drie maanden later meer dan 3300 flesjes van mijn eigen bier in handen te hebben. De Vlierefluiter is meer dan een drankje, het is een heel merk, bijna een soort club, geworden. </p>
+    <p> 
+    <br>
+    Nu bijna een jaar later is de Vlierefluiter op 7 locaties te verkrijgen versprijd over half Nederland. Maar niet getreurd, want er is nog genoeg bier over! </p>
+    <br>
+    <p> Neem uit interesse vooral een kijkje op de <a href="https://www.instagram.com/outsideroriginals/" target="_blank">Instagram</a>! </p>`,
+    eindproduct_video: 'https://www.youtube.com/embed/kjbdKZRpHSA?si=zhS8ucIqnBCmobky',
+    eindproduct_link:'https://www.outsideroriginals.nl/',
   }
 ]
 

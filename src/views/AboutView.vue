@@ -9,7 +9,7 @@
 
 <section>
     <h2> Mijn visie </h2>
-    <p>Ik ben een creatieve front-end developer met een liefde voor design dat werkt voor iedereen. Ik geloof in het bouwen van duidelijke, goed functionerende webervaringen die niet alleen prettig zijn om te gebruiken, maar ook goed doen. Voor mij gaat design niet alleen over hoe iets eruit ziet, maar ook over hoe het inclusief is. Ik geef veel om het creëren van ethische en inclusieve digitale ruimtes waar mensen zich welkom en vertegenwoordigd voelen. Ik combineer graag solide UX en schone code met een speelse touch, want het web kan (en moet) ook een beetje leuk zijn.</p>
+    <p>Ik ben een creatieve front-end developer met een liefde voor design dat werkt voor iedereen. Ik geloof in het bouwen van duidelijke, goed functionerende webervaringen die niet alleen prettig zijn om te gebruiken, maar ook speels en verrassend. Voor mij gaat design niet alleen over hoe iets eruit ziet, maar ook over hoe het in elkaar zit.</p>
 </section>
 
 
@@ -48,7 +48,7 @@
 
 <a href="/assets/cv_sindy_2025.pdf" target="_blank" rel="noopener" class="cv-box">
   <section class="cv-link">
-    <span> Bekijk mijn CV </span>
+    <span> Download mijn CV </span>
   </section>
 </a>
 
@@ -141,11 +141,11 @@ h1 {
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  margin-top: 1em;
+  margin-top: 3em;
 
   section {
     background-color: $color-interaction;
-    padding: 2em 0;
+    padding: 3em 0;
   }
 
   .cv-link {

@@ -13,8 +13,6 @@ const props = defineProps<{
 const project = projects.find((proj) => proj.name === props.name) || {
   title: 'Project Not Found',
   image: '',
-  video: '',
-  video2: '',
   category: '',
   hoofdzaak: '',
   vak: '',
@@ -39,6 +37,7 @@ const project = projects.find((proj) => proj.name === props.name) || {
   eindproduct_link: '',
   eindproduct_img: '',
   eindproduct_video: '',
+  eindproduct_video2: '',
 }
 
 console.log('Props:', props)
@@ -134,14 +133,11 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
           <div class="eindproduct-images">
             <ImageDisplay :source="project.eindproduct_img" altText="Eindproduct afbeelding" />
           </div>
-          <div class="video-container" v-if="project.video">
-            <iframe :src="project.video" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="video-container" v-if="project.video2">
-            <iframe :src="project.video2" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-          </div>
           <div class="video-container" v-if="project.eindproduct_video">
-            <iframe :src="project.eindproduct_video" title="Video player" frameborder="0" allowfullscreen></iframe>
+            <iframe :src="project.eindproduct_video" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="video-container" v-if="project.eindproduct_video2">
+            <iframe :src="project.eindproduct_video2" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
           </div>
           <a class="link_eindproduct" v-if="project.eindproduct_link" :href="project.eindproduct_link" target="_blank">
             Naar online eindproduct
@@ -161,7 +157,7 @@ const sanitizedEindproduct = computed(() => DOMPurify.sanitize(project.eindprodu
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-top: 2em;
+  margin-top: 1em;
 
   .image-item {
     text-align: center;
@@ -231,7 +227,7 @@ ul {
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  margin: 0 0;
+  margin: 0 0 1em 0;
 
   iframe {
     position: absolute;
