@@ -1,4 +1,14 @@
 How to push code to pages:
 
-1. in fork: push everything to main
-2. in command line; 
+1. in fork: push everything to main (geen commando's nodig als je fork gebruikt)
+git checkout main
+git pull origin main
+git add .
+git commit -m "Update content"
+git push origin main
+
+2. Nadat main goed staat. Van main -> live (dus gh-pages)
+git checkout gh-pages
+git merge main
+# (los conflicten op als nodig)
+git push origin gh-pages
