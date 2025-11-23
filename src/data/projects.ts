@@ -149,9 +149,9 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     datum: '4 juni 2022',
     skills: ['Javascript', 'CSS', 'HTML', 'Adobe Illustrator'],
     opdracht:
-    'Een zelfgemaakte interactieve Javascript applicatie ontwikkelt zonder het gebruik van libraries of frameworks. Het bevat verschillende type interactiemethoden en een complexe serie aan input en output tussen de gebruiker en de computer. Tijdens een mondeling moest ik de werking goed kunnen uitleggen.',
+      'Een zelfgemaakte interactieve Javascript applicatie ontwikkelt zonder het gebruik van libraries of frameworks. Het bevat verschillende type interactiemethoden en een complexe serie aan input en output tussen de gebruiker en de computer. Tijdens een mondeling moest ik de werking goed kunnen uitleggen.',
     eindproduct:
-    'Mijn concept heet de Magic 8-Ball. Dit is een interactieve applicatie waarbij de gebruiker kan kiezen of de bal een random antwoord geeft of een random getal. Als er wordt gekozen voor een getal dan kan de gebruiker het bereik van de cijfers aangeven, zoals een getal tussen de 0 en 99. Het kost mana om de bal te gebruiken. Je kunt de mana opladen door op een maantje te klikken. ',
+      'Mijn concept heet de Magic 8-Ball. Dit is een interactieve applicatie waarbij de gebruiker kan kiezen of de bal een random antwoord geeft of een random getal. Als er wordt gekozen voor een getal dan kan de gebruiker het bereik van de cijfers aangeven, zoals een getal tussen de 0 en 99. Het kost mana om de bal te gebruiken. Je kunt de mana opladen door op een maantje te klikken. ',
     eindproduct_video: 'https://www.youtube-nocookie.com/embed/p1J3UeUW74w?si=Rty6eYxkpXvkMucj',
     eindproduct_link: 'https://sindydejong.github.io/Magicball/'
   },
@@ -166,11 +166,11 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     datum: '30 juni 2022',
     skills: ['Adobe XD', 'Adobe Illustrator', 'Product development', 'Interactie design'],
     opdracht:
-    'Voor dit project moest ik gedurende 3 weken met een groepje aan de slag gaan om een digitaal en/of fysiek product te ontwikkelen die bijdraagt aan een betere wereld. Wij werden op basis van onze gezamenlijke passie, muziek, bij elkaar in de klas gezet en mochten zelf trios vormen.  ',
+      'Voor dit project moest ik gedurende 3 weken met een groepje aan de slag gaan om een digitaal en/of fysiek product te ontwikkelen die bijdraagt aan een betere wereld. Wij werden op basis van onze gezamenlijke passie, muziek, bij elkaar in de klas gezet en mochten zelf trios vormen.  ',
     eindproduct:
-    'JamTies is een interactief muzikaal kletsspel dat spelers aanmoedigt om hun interesses en gevoelens te delen. Voor nu is JamTies gericht om op een festivalsetting gespeeld te worden. Denk hierbij aan festivalgangers die tussen optredens door tijd hebben voor leuke activiteiten en spelletjes.',
+      'JamTies is een interactief muzikaal kletsspel dat spelers aanmoedigt om hun interesses en gevoelens te delen. Voor nu is JamTies gericht om op een festivalsetting gespeeld te worden. Denk hierbij aan festivalgangers die tussen optredens door tijd hebben voor leuke activiteiten en spelletjes.',
     eindproduct_video: 'https://www.youtube-nocookie.com/embed/hzGr8m0BfvA?si=ZYdhdQEDsgymztoW',
-    eindproduct_video2: 'https://www.youtube-nocookie.com/embed/A61T92TfQ68?si=-vf6280KcGcaf2O8',
+    eindproduct_video2: 'https://www.youtube-nocookie.com/embed/A61T92TfQ68?si=-vf6280KcGcaf2O8'
   },
   {
     name: 'beeldtaal',
@@ -283,29 +283,27 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     ],
     proces_img2_beschrijving:
       'Dit is de tracking timeline. Het is een visuele weergave van de voortgang van een pakket, met iconen die de verschillende stadia van het verzendproces aangeven. De kleuren en iconen zijn ontworpen om een ruimte-thema te weerspiegelen, wat aansluit bij de identiteit van Springtracking. Klik door de variaties heen om de verschillende stadia van het proces te zien.',
-    eindproduct:
-      `<p>Dit uitdaagende en zeer leuke project heeft mij veel geleerd over responsive ontwerpen met meerdere eisen en aandachtspunten die in het ontwerp moeten komen. Ik heb veel geïtereerd en samengewerkt met collegas. Ook heb ik direct meeting gehad met de klant, waar ik erg veel heb geleerd. </p> 
+    eindproduct: `<p>Dit uitdaagende en zeer leuke project heeft mij veel geleerd over responsive ontwerpen met meerdere eisen en aandachtspunten die in het ontwerp moeten komen. Ik heb veel geïtereerd en samengewerkt met collegas. Ook heb ik direct meeting gehad met de klant, waar ik erg veel heb geleerd. </p> 
       <br> <p> Mijn eindproduct is interactief Figma design met daarin de vernieuwde versie van de website. Deze heb ik mogen presenteren aan de klant en zij waren erg enthousiast over het resultaat. </p>`,
-      eindproduct_img: [
-        '/assets/images/springtracking/desktop/desk_1.png',
-        '/assets/images/springtracking/desktop/desk_2.png',
-        '/assets/images/springtracking/desktop/desk_3.png',
-        '/assets/images/springtracking/desktop/desk_4.png',
-        '/assets/images/springtracking/desktop/desk_5.png',
-        '/assets/images/springtracking/desktop/desk_6.png',
-        '/assets/images/springtracking/desktop/desk_7.png',
-        '/assets/images/springtracking/mobile/mob_0.png',
-        '/assets/images/springtracking/mobile/mob_1.png',
-        '/assets/images/springtracking/mobile/mob_2.png',
-        '/assets/images/springtracking/mobile/mob_3.png',
-        '/assets/images/springtracking/mobile/mob_4.png',
-        '/assets/images/springtracking/mobile/mob_4.1.png',
-        '/assets/images/springtracking/mobile/mob_5.png',
-        '/assets/images/springtracking/mobile/mob_7.png',
-
-      ],
-      eindproduct_video: 'https://www.youtube.com/embed/sJj7DfIxfig?si=q51ViAzcN28tH1Vl',
-    },
+    eindproduct_img: [
+      '/assets/images/springtracking/desktop/desk_1.png',
+      '/assets/images/springtracking/desktop/desk_2.png',
+      '/assets/images/springtracking/desktop/desk_3.png',
+      '/assets/images/springtracking/desktop/desk_4.png',
+      '/assets/images/springtracking/desktop/desk_5.png',
+      '/assets/images/springtracking/desktop/desk_6.png',
+      '/assets/images/springtracking/desktop/desk_7.png',
+      '/assets/images/springtracking/mobile/mob_0.png',
+      '/assets/images/springtracking/mobile/mob_1.png',
+      '/assets/images/springtracking/mobile/mob_2.png',
+      '/assets/images/springtracking/mobile/mob_3.png',
+      '/assets/images/springtracking/mobile/mob_4.png',
+      '/assets/images/springtracking/mobile/mob_4.1.png',
+      '/assets/images/springtracking/mobile/mob_5.png',
+      '/assets/images/springtracking/mobile/mob_7.png'
+    ],
+    eindproduct_video: 'https://www.youtube.com/embed/sJj7DfIxfig?si=q51ViAzcN28tH1Vl'
+  },
   {
     name: 'fileshare',
     image: '/assets/images/fileshare.png',
@@ -316,8 +314,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     duur: '6 maanden parttime',
     datum: '12 februari 2025',
     skills: ['Figma', 'UX', 'UI', 'Front-end development', 'VUE', 'Prototyping'],
-    opdracht:
-      `<p> Na mijn korte stage bij Nalta Software ben ik daar blijven werken als parttime designer/developer. Het bedrijf wilde graag een fileshare webapplicatie waarmee makkelijk en veilig bestanden met elkaar en klanten gedeeld konden worden. Deze webapplicatie heb ik ontworpen en ontwikkeld, met ondersteuning van een aantal kennisrijke collega's. </p>
+    opdracht: `<p> Na mijn korte stage bij Nalta Software ben ik daar blijven werken als parttime designer/developer. Het bedrijf wilde graag een fileshare webapplicatie waarmee makkelijk en veilig bestanden met elkaar en klanten gedeeld konden worden. Deze webapplicatie heb ik ontworpen en ontwikkeld, met ondersteuning van een aantal kennisrijke collega's. </p>
       <br> 
     <p> De Fileshare applicatie was slecht één onderdeel van een groter project, namelijk de Nalta Client Portal. Dit is een platform waar klanten van Nalta Software hun projecten kunnen beheren en communiceren met de ontwikkelaars. De Fileshare applicatie is een van de belangrijkste onderdelen van dit platform, omdat het de mogelijkheid biedt om bestanden te delen en samen te werken aan projecten. </p>
 
@@ -334,23 +331,24 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
       <p> De uitdaging zat voor mij in het ontwerpen van een interface waarbij het duidelijk is dat je vanuit je project-keuze door kan navigeren naar verschillende applicaties, in plaats van binnen een applicatie steeds een project kiezen. </p>
       <br>
       <p> Binnen het developen van de applicatie was het uitdagende om data-gericht te ontwikkelen. De structuren zo leggen dat enkel nog de API's ingevuld moesten worden. Hiervoor heb ik gewerkt met componenten en mock-API's totdat de echte API's werkend waren.  </p>`,
-    proces_img1: [
-      '/assets/images/fileshare/fileshare_projects.png',
-    ],
-    proces_img1_beschrijving: 'Na het inloggen kom je op de Select Project pagina. Via een API worden de projecten opgehaald en weergegeven. Hier kan de gebruiker een project selecteren om verder te gaan.',
+    proces_img1: ['/assets/images/fileshare/fileshare_projects.png'],
+    proces_img1_beschrijving:
+      'Na het inloggen kom je op de Select Project pagina. Via een API worden de projecten opgehaald en weergegeven. Hier kan de gebruiker een project selecteren om verder te gaan.',
     proces_img2: [
       '/assets/images/fileshare/fileshare_nav_open.png',
-      '/assets/images/fileshare/fileshare_nav_closed.png',
+      '/assets/images/fileshare/fileshare_nav_closed.png'
     ],
-    proces_img2_beschrijving:'Bij het maken van de applicatie heb ik ervoor gekozen om een zijbalk te gebruiken voor de navigatie. Deze is altijd zichtbaar, maar kan ook worden ingeklapt. Dit zorgt voor een overzichtelijke interface en maakt het makkelijk om tussen verschillende onderdelen van de applicatie te navigeren.',
+    proces_img2_beschrijving:
+      'Bij het maken van de applicatie heb ik ervoor gekozen om een zijbalk te gebruiken voor de navigatie. Deze is altijd zichtbaar, maar kan ook worden ingeklapt. Dit zorgt voor een overzichtelijke interface en maakt het makkelijk om tussen verschillende onderdelen van de applicatie te navigeren.',
     proces_img3: '/assets/images/fileshare/fileshare_recipients.png',
-    proces_img3_beschrijving: 'Op de pagina waar je een bestand kunt delen, kun je een lijst van ontvangers zien. Deze ontvangers zijn gebruikers die toegang hebben tot het project. Oo hier wordt gebruik gemaakt van een API om de ontvangers op te halen en weer te geven.',
+    proces_img3_beschrijving:
+      'Op de pagina waar je een bestand kunt delen, kun je een lijst van ontvangers zien. Deze ontvangers zijn gebruikers die toegang hebben tot het project. Oo hier wordt gebruik gemaakt van een API om de ontvangers op te halen en weer te geven.',
     eindproduct: ` <p> Het eindproduct is een werkende webapplicatie die gebruikers in staat stelt om bestanden te delen en samen te werken aan projecten. Daarnaast is de basis gezet om de applicatie uit te breiden met meerdere functionaliteiten, zoals projectbeheer en andere tools om uiteindelijk de Client Portal te realiseren. </p>
       <br>
       <p> Het was een uitdagend project dat mij in een korte tijd een boost in mijn front-end ontwikkeling heeft gegeven. Ik heb veel geleerd over het werken met Vue.js, hiërarchiën en datastructuren door het daarwerkelijk maken van een herbruikbare shell voor de volgende functionaliteiten, koppelen van API's aan de front-end tot aan een werkende applicatie. </p> 
     `,
     eindproduct_video: 'https://www.youtube.com/embed/CSPnTIkycmc?si=DtuZNXiRY4BLZ6vo',
-    eindproduct_img: '/assets/images/fileshare/fileshare_styleguide.png',
+    eindproduct_img: '/assets/images/fileshare/fileshare_styleguide.png'
   },
   {
     name: 'outsider originals',
@@ -377,10 +375,21 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     <br>
       <p> Zo zijn wij stap voor stap met enorm veel iteraties tot een product, merkidentiteit en salesstrategie gekomen. Wij vinden dat het een uniek en herkenbaar merk is geworden. </p>
     `,
-    proces_img1: ['/assets/images/vlierefluiter/product_1.jpg', '/assets/images/vlierefluiter/product_2.jpg', '/assets/images/vlierefluiter/product_3.jpg', '/assets/images/vlierefluiter/product_4.jpg'],
-    proces_img1_beschrijving: 'De Vlierefluiter is een blond bier met een frisse, fruitige smaak. De smaken worden gevormd door biologische perensap, witte druivensap en vlierbloesem. Het is gebrouwen met liefde en aandacht voor detail. De naam "De Vlierefluiter" verwijst naar de speelse en zorgeloze sfeer die we wilden uitstralen met ons bier en natuurlijk met een V voor vlierbloesem.',
-    proces_img2: ['/assets/images/vlierefluiter/branding_1.jpg', '/assets/images/vlierefluiter/branding_2.jpg', '/assets/images/vlierefluiter/branding_3.jpg'],
-    proces_img2_beschrijving: 'Het merk "Outsider Originals" is ontstaan vanuit de gedachte dat wij onszelf niet willen conformeren aan de massa. Wij zijn niet het beeld wat je voor je ziet zodra je bierbrouwers hoort, maar dat maakt ons uniek. Het merk staat voor originaliteit, creativiteit en duurzaamheid. Wij laten daarom ook graag onze biologische ingrediënten zien en zijn trots op het feit dat het CO2-neutraal is gebrouwen. ',
+    proces_img1: [
+      '/assets/images/vlierefluiter/product_1.jpg',
+      '/assets/images/vlierefluiter/product_2.jpg',
+      '/assets/images/vlierefluiter/product_3.jpg',
+      '/assets/images/vlierefluiter/product_4.jpg'
+    ],
+    proces_img1_beschrijving:
+      'De Vlierefluiter is een blond bier met een frisse, fruitige smaak. De smaken worden gevormd door biologische perensap, witte druivensap en vlierbloesem. Het is gebrouwen met liefde en aandacht voor detail. De naam "De Vlierefluiter" verwijst naar de speelse en zorgeloze sfeer die we wilden uitstralen met ons bier en natuurlijk met een V voor vlierbloesem.',
+    proces_img2: [
+      '/assets/images/vlierefluiter/branding_1.jpg',
+      '/assets/images/vlierefluiter/branding_2.jpg',
+      '/assets/images/vlierefluiter/branding_3.jpg'
+    ],
+    proces_img2_beschrijving:
+      'Het merk "Outsider Originals" is ontstaan vanuit de gedachte dat wij onszelf niet willen conformeren aan de massa. Wij zijn niet het beeld wat je voor je ziet zodra je bierbrouwers hoort, maar dat maakt ons uniek. Het merk staat voor originaliteit, creativiteit en duurzaamheid. Wij laten daarom ook graag onze biologische ingrediënten zien en zijn trots op het feit dat het CO2-neutraal is gebrouwen. ',
     proces_img3: '/assets/images/vlierefluiter/webshop.png',
     proces_img3_beschrijving: ` <p> Sales hebben wij gedaan door middel van een webshop, waar wij de Vlierefluiter en andere merchandise verkopen. De webshop is gemaakt in Wixstudio, waar ik zelf de volledige verantwoordelijkheid over had. Het was een leerzaam proces om de webshop te bouwen en te optimaliseren voor een goede gebruikerservaring. </p>
     <br>
@@ -392,7 +401,58 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     <br>
     <p> Neem uit interesse vooral een kijkje op de <a href="https://www.instagram.com/outsideroriginals/" target="_blank">Instagram</a>! </p>`,
     eindproduct_video: 'https://www.youtube.com/embed/kjbdKZRpHSA?si=zhS8ucIqnBCmobky',
-    eindproduct_link:'https://www.outsideroriginals.nl/',
+    eindproduct_link: 'https://www.outsideroriginals.nl/'
+  },
+
+  {
+    name: 'Uit je dak!',
+    image: '/assets/images/outsider_originals.png',
+    title: 'Uit je dak!: Wereld Dakloze Mensen Dag 2025',
+    category: ['FRONT-END'],
+    hoofdzaak: 'Product development/design, Branding, Sales, Website design',
+    vak: 'Stage leerjaar 4 CMD',
+    duur: '5 maanden',
+    datum: '09-2025 tot 02-2026',
+    skills: ['Front-end Development', 'GSAP Animation', 'Wordpress'],
+    opdracht: `<p> Tijdens mijn stage bij Pageking mocht ik meewerken aan de campagne rondom Wereld Dakloze Mensen Dag 2025. Deze dag staat in het teken van het zichtbaar maken van dakloosheid en het ervaren van de stad door de ogen van iemand zonder (t)huis. Samen met Pageking en designbureau MAAN heb ik gewerkt aan een one-pager website die het driedaagse programma in Breda presenteert op een visueel sterke en toegankelijke manier. </p>
+    `,
+    opdracht_img1: '/assets/images/vlierefluiter/vlier_1.avif',
+    proces: `Ik ontwikkelde een volledig dynamische one-pager op basis van het visuele ontwerp van MAAN. Hierbij heb ik:
+      <ul>
+        <li>WordPress gebruikt als CMS, zodat de opdrachtgever eenvoudig alle content zelf kan beheren. </li>
+        <li>Custom PHP-fields gebouwd, zodat de volledige website flexibel en dynamisch te vullen is met programma-items, afbeeldingen en teksten. </li>
+        <li>Op maat geschreven front-end code gebruikt (HTML, CSS en JavaScript) om het ontwerp pixel-perfect tot leven te brengen.</li>
+        <li> Eigen animaties ontworpen en ontwikkeld, om het visuele concept te versterken en het verhaal op een moderne, vloeiende manier te vertellen. </li>
+        <li> Responsieve en toegankelijke UI gemaakt, zodat de website op alle apparaten goed werkt en toegankelijk is voor een brede doelgroep. </li>
+      </ul>
+<br>
+    <p> Zo is het eindresultaat een moderne, creatieve one-pager geworden die het evenement op een warme, menselijke en creatieve manier presenteert en volledig in lijn is met het doel van de dag: de zichtbaarheid van dakloosheid vergroten door middel van kunst, verhalen en ontmoetingen. </p>
+    `,
+    proces_img1: [
+      '/assets/images/vlierefluiter/product_1.jpg',
+      '/assets/images/vlierefluiter/product_2.jpg',
+      '/assets/images/vlierefluiter/product_3.jpg',
+      '/assets/images/vlierefluiter/product_4.jpg'
+    ],
+    proces_img1_beschrijving:
+      'De Vlierefluiter is een blond bier met een frisse, fruitige smaak. De smaken worden gevormd door biologische perensap, witte druivensap en vlierbloesem. Het is gebrouwen met liefde en aandacht voor detail. De naam "De Vlierefluiter" verwijst naar de speelse en zorgeloze sfeer die we wilden uitstralen met ons bier en natuurlijk met een V voor vlierbloesem.',
+    proces_img2: [
+      '/assets/images/vlierefluiter/branding_1.jpg',
+      '/assets/images/vlierefluiter/branding_2.jpg',
+      '/assets/images/vlierefluiter/branding_3.jpg'
+    ],
+    proces_img2_beschrijving:
+      'Het merk "Outsider Originals" is ontstaan vanuit de gedachte dat wij onszelf niet willen conformeren aan de massa. Wij zijn niet het beeld wat je voor je ziet zodra je bierbrouwers hoort, maar dat maakt ons uniek. Het merk staat voor originaliteit, creativiteit en duurzaamheid. Wij laten daarom ook graag onze biologische ingrediënten zien en zijn trots op het feit dat het CO2-neutraal is gebrouwen. ',
+    proces_img3: '/assets/images/vlierefluiter/webshop.png',
+    proces_img3_beschrijving: ` <p> Sales hebben wij gedaan door middel van een webshop, waar wij de Vlierefluiter en andere merchandise verkopen. De webshop is gemaakt in Wixstudio, waar ik zelf de volledige verantwoordelijkheid over had. Het was een leerzaam proces om de webshop te bouwen en te optimaliseren voor een goede gebruikerservaring. </p>
+    <br>
+    <p> Nadat vrienden en familie waren los gegaan in de webshop, was het tijd om de Vlierefluiter ook aan de buitenwereld te presenteren. Dit hebben wij gedaan door simpel weg in onze thuissteden langs allerlei horeca/winkels te gaan. </p> `,
+    eindproduct: ` <p> Met volle trots kijk ik terug op het avontuur. Ik heb nog nooit zoveel geleerd in zo'n korte tijd. Van niks naar drie maanden later meer dan 3300 flesjes van mijn eigen bier in handen te hebben. De Vlierefluiter is meer dan een drankje, het is een heel merk, bijna een soort club, geworden. </p>
+    <p> 
+    <br>
+    Nu bijna een jaar later is de Vlierefluiter op 7 locaties te verkrijgen versprijd over half Nederland. Maar niet getreurd, want er is nog genoeg bier over! </p>
+    <br>`,
+    eindproduct_link: 'https://www.uit-je-dak.nl/'
   }
 ]
 

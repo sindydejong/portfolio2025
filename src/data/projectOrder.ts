@@ -1,4 +1,5 @@
 export const projectOrder = [
+  'Uit je dak!',
   'springtracking',
   'fileshare',
   'outsider originals',
@@ -7,5 +8,5 @@ export const projectOrder = [
   'magic_8ball',
   'red hot chili peppers',
   'jamties',
-  'beeldtaal',
-];
+  'beeldtaal'
+]
