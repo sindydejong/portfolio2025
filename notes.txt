@@ -1,0 +1,4 @@
+How to push code to pages:
+
+1. in fork: push everything to main
+2. in command line; 
