@@ -37,7 +37,7 @@ const characters = [
     image: '/assets/Animatie_balans.gif',
     title: 'FRONT-ENDER',
     description: 'Ik breng graag ontwerpen tot leven met code, met focus op de gebruikservaring',
-    skills: ['HTML', 'CSS', 'JS', 'VUE'],
+    skills: ['Wordpress', 'GSAP', 'VUE'],
     projectName: 'fileshare',
     project: 'Fileshare: Sharing is Caring (Intern bedrijfsproject)',
     buttonText: 'Meer front-end projecten'

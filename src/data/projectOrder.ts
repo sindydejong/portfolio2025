@@ -1,5 +1,6 @@
 export const projectOrder = [
   'Uit je dak!',
+  'Ceocor',
   'springtracking',
   'fileshare',
   'outsider originals',

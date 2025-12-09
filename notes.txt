@@ -4,7 +4,8 @@ ALLES VANUIT MAIN.
 npm run deploy gebruikt het gh-pages npm pakket om automatisch de inhoud van je build-map (dist/) te pushen naar de gh-pages branch.
 Daardoor hoef je zelf niet met git te switchen of handmatig te mergen.
 
-# 1. Werk en push code naar main (doe je via fork)
+# 1. Werk en push code naar main (doe je via fork. )
+NIET NODIG ALS IK FOTK GEBRUIK
 git checkout main
 git pull origin main
 git add .
@@ -15,3 +16,7 @@ git push origin main
 npm run build
 # 2b. Deploy build naar gh-pages
 npm run deploy
+
+# Live bewerken
+npm run dev 
+- dev stoppen? CTRL + C 
