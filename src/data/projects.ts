@@ -408,11 +408,11 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     image: '/assets/images/uitjedak/uitjedak_home.png',
     title: 'Uit je dak!: Wereld Dakloze Mensen Dag 2025',
     category: ['FRONT-END'],
-    hoofdzaak: 'Product development/design, Branding, Sales, Website design',
+    hoofdzaak: 'Front-end developement met Wordpress, GSAP animaties en Swiper.js',
     vak: 'Stage leerjaar 4 CMD',
     duur: '5 maanden',
     datum: '09-2025 tot 02-2026',
-    skills: ['Front-end Development', 'GSAP Animation', 'Wordpress'],
+    skills: ['Front-end Development', 'Wordpress', 'GSAP Animation', 'Swiper.js'],
     opdracht: `<p> Tijdens mijn stage bij Pageking mocht ik meewerken aan de campagne rondom Wereld Dakloze Mensen Dag 2025. Deze dag staat in het teken van het zichtbaar maken van dakloosheid en het ervaren van de stad door de ogen van iemand zonder (t)huis. Samen met Pageking en designbureau MAAN heb ik gewerkt aan een one-pager website die het driedaagse programma in Breda presenteert op een visueel sterke en toegankelijke manier. </p>
     `,
     opdracht_img1: '/assets/images/uitjedak/banners.jpeg',
