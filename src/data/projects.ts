@@ -429,9 +429,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     proces_img1_beschrijving:
       'Bij het maken van de swiper heb ik gebruik gemaakt van Swiper.js. Dit is een populaire library voor het maken van sliders en carrousels. Ik heb de swiper volledig aangepast aan het ontwerp en de functionaliteit die nodig was voor de website. Ook heb ik hier een custom cursor aan toegevoegd voor een duidelijkere en leukere interactie. ',
     proces_img3: '/assets/images/uitjedak/animatie.png',
-    proces_img3_beschrijving: ` <p> Sales hebben wij gedaan door middel van een webshop, waar wij de Vlierefluiter en andere merchandise verkopen. De webshop is gemaakt in Wixstudio, waar ik zelf de volledige verantwoordelijkheid over had. Het was een leerzaam proces om de webshop te bouwen en te optimaliseren voor een goede gebruikerservaring. </p>
-    <br>
-    <p> Nadat vrienden en familie waren los gegaan in de webshop, was het tijd om de Vlierefluiter ook aan de buitenwereld te presenteren. Dit hebben wij gedaan door simpel weg in onze thuissteden langs allerlei horeca/winkels te gaan. </p> `,
+    proces_img3_beschrijving: ``,
     eindproduct: ` <p> Zo is het eindresultaat een moderne, creatieve one-pager geworden die het evenement op een warme, menselijke en creatieve manier presenteert en volledig in lijn is met het doel van de dag: de zichtbaarheid van dakloosheid vergroten door middel van kunst, verhalen en ontmoetingen. </p>
     <br>`,
     eindproduct_img: '/assets/images/uitjedak/mock.jpeg',
