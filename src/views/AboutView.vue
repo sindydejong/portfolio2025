@@ -54,7 +54,7 @@
       </section>
 
       <section>
-        <h2>Mijn favoriete liedje</h2>
+        <h2>Mijn favoriete lied </h2>
         <iframe
           style="border-radius: 12px"
           src="https://open.spotify.com/embed/track/2WfaOiMkCvy7F5fcp2zZ8L?utm_source=generator&theme=0"
