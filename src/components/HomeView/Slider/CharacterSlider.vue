@@ -38,14 +38,14 @@ const characters = [
     title: 'FRONT-ENDER',
     description: 'Ik breng graag ontwerpen tot leven met code, met focus op de gebruikservaring',
     skills: ['Wordpress', 'GSAP', 'VUE'],
-    projectName: 'fileshare',
-    project: 'Fileshare: Sharing is Caring (Intern bedrijfsproject)',
+    projectName: 'ceocor',
+    project: 'Ceocor: International congress and technical exhibition',
     buttonText: 'Meer front-end projecten'
   },
  {
   image: '/assets/Animatie_zwaaien_final.gif',
   title: 'MIJZELF',
-  description: 'Ik heb het nog nooit gedaan, maar ik denk dat ik het wel kan leren!',
+  description: 'Ik hou ervan om alles tot op de bodem uit te pluizen, of het nu gaat om werk of vrije tijd',
   skills: ['Muziek', 'Gamen', 'Bier'],
   projectUrl: 'https://youtu.be/djV11Xbc914?si=asxr5q7KEkFny7g5',
   project: 'Aha - Take On Me  ... eigenlijk alles uit de jaren 80!',

@@ -252,9 +252,10 @@ ul {
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  color: $color-main;
 
   &:hover {
-    color: $color-interaction;
+    color: $color-main;
     background-color: white;
   }
 }
@@ -262,7 +263,7 @@ ul {
 .link_eindproduct {
   padding: 10px;
   background-color: $color-interaction;
-  color: black;
+  color: $color-main;
   margin: 1em 0em;
   display: block;
   text-decoration: none;
