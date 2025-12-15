@@ -401,7 +401,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     <br>
     <p> Neem uit interesse vooral een kijkje op de <a href="https://www.instagram.com/outsideroriginals/" target="_blank">Instagram</a>! </p>`,
     eindproduct_video: 'https://www.youtube.com/embed/kjbdKZRpHSA?si=zhS8ucIqnBCmobky',
-    eindproduct_link: 'https://www.outsideroriginals.nl/'
+    eindproduct_link: 'https://outsideroriginals.wixstudio.com/vlierefluiter'
   },
   {
     name: 'Uit je dak!',
@@ -425,18 +425,22 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
         <li> Responsieve en toegankelijke UI gemaakt, zodat de website op alle apparaten goed werkt en toegankelijk is voor een brede doelgroep. </li>
       </ul>
     `,
-    proces_img1: ['/assets/images/uitjedak/uitjedak_swiper.png'],
+    proces_img1: [
+      '/assets/images/uitjedak/uitjedak_swiper.png',
+      '/assets/images/uitjedak/swiper2.png',
+      '/assets/images/uitjedak/swiper3.png'
+    ],
     proces_img1_beschrijving:
       'Bij het maken van de swiper heb ik gebruik gemaakt van Swiper.js. Dit is een populaire library voor het maken van sliders en carrousels. Ik heb de swiper volledig aangepast aan het ontwerp en de functionaliteit die nodig was voor de website. Ook heb ik hier een custom cursor aan toegevoegd voor een duidelijkere en leukere interactie. ',
-    proces_img3: '/assets/images/uitjedak/animatie.png',
-    proces_img3_beschrijving: ``,
+    proces_img2: '/assets/images/uitjedak/animatie.png',
+    proces_img2_beschrijving: ``,
     eindproduct: ` <p> Zo is het eindresultaat een moderne, creatieve one-pager geworden die het evenement op een warme, menselijke en creatieve manier presenteert en volledig in lijn is met het doel van de dag: de zichtbaarheid van dakloosheid vergroten door middel van kunst, verhalen en ontmoetingen. </p>
     <br>`,
     eindproduct_img: '/assets/images/uitjedak/mock.jpeg',
     eindproduct_link: 'https://www.uit-je-dak.nl/'
   },
   {
-    name: 'Ceocor',
+    name: 'ceocor',
     image: '/assets/images/ceocor/hero.png',
     title: 'Ceocor: International congress and technical exhibition',
     category: ['FRONT-END'],
@@ -450,7 +454,7 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
     <p> Het was hierbij belangrijk om goed na te denken over de datastructuur:
     welke onderdelen worden op meerdere plekken gebruikt en horen dus thuis in een vast berichttype, en welke content kan per pagina via een repeater flexibel ingevuld worden? </p>
     `,
-    opdracht_img1: '/assets/images/ceocor/blocks.png',
+    opdracht_img1: '/assets/images/ceocor/program.png',
     proces: `Bij het bouwen van CEOCOR lag de focus sterk op het logisch en toekomstbestendig structureren van data. Het congres bevat veel verschillende contenttypen, die ook nog eens op meerdere pagina's of secties terugkomen. Daarom heb ik:
       <ul>
         <li>Custom post types en velden opgezet voor herbruikbare elementen zoals sprekers, sponsors en programma-items. </li>
@@ -458,20 +462,24 @@ Daarna konden wij kiezen om extra aandacht aan de surface laag te besteden of om
         <li>Variabele componenten gemaakt voor grids, kleurstijlen, knoppen en titels zodat de site consistent bleef en eenvoudig uitbreidbaar is.</li>
         <li> GSAP-animaties toegepast op titels en op de rode SVG-blobs, die langzaam bewegen of pulsen om het design levendiger te maken. </li>
         <li>Swiper.js gebruikt voor de verschillende sliders en deze uitgebreid gestyled naar het ontwerp, inclusief een custom cursor voor een speelsere interactie. </li>
-        <li> SVG-blobs dynamisch ingeladen, zodat ze scherp blijven op alle resoluties én eenvoudig te animeren zijn met GSAP. </li>
+        <li> SVG-blobs dynamisch ingeladen, zodat ze scherp blijven op alle resoluties en eenvoudig te animeren zijn met GSAP. </li>
       </ul>
     `,
-    proces_img1: ['/assets/images/ceocor/program.png'],
+    proces_img1: [
+      '/assets/images/ceocor/faq.png',
+      '/assets/images/ceocor/blocks.png',
+      '/assets/images/ceocor/hotels.png'
+    ],
     proces_img1_beschrijving:
-      'Bij het maken van de swiper heb ik gebruik gemaakt van Swiper.js. Dit is een populaire library voor het maken van sliders en carrousels. Ik heb de swiper volledig aangepast aan het ontwerp en de functionaliteit die nodig was voor de website. Ook heb ik hier een custom cursor aan toegevoegd voor een duidelijkere en leukere interactie. ',
-    proces_img3: '/assets/images/ceocor/hotels.png',
-    proces_img3_beschrijving: ` <p> Sales hebben wij gedaan door middel van een webshop, waar wij de Vlierefluiter en andere merchandise verkopen. De webshop is gemaakt in Wixstudio, waar ik zelf de volledige verantwoordelijkheid over had. Het was een leerzaam proces om de webshop te bouwen en te optimaliseren voor een goede gebruikerservaring. </p>
-    <br>
-    <p> Nadat vrienden en familie waren los gegaan in de webshop, was het tijd om de Vlierefluiter ook aan de buitenwereld te presenteren. Dit hebben wij gedaan door simpel weg in onze thuissteden langs allerlei horeca/winkels te gaan. </p> `,
+      'fee',
+    proces_img2: '/assets/images/ceocor/swiper.png',
+    proces_img2_beschrijving: 'Bij het maken van de swiper heb ik gebruik gemaakt van Swiper.js. Dit is een populaire library voor het maken van sliders en carrousels. Ik heb de swiper volledig aangepast aan het ontwerp en de functionaliteit die nodig was voor de website. Ook heb ik hier een custom cursor aan toegevoegd voor een duidelijkere en leukere interactie. ',
+    proces_img3: '/assets/images/ceocor/achterkant.png',
+    proces_img3_beschrijving: ` <p> Dit is hoe een blok eruit ziet aan de achterkant. Zoals je ziet is elk stukje data dat je aan de voorkant ziet, gekoppelt aan een veld aan de achterkant. Als developer was ik vrij om dit in te richten naar mij eigen inzicht. Ik heb gemeerkt dat de aanpak soms erg voordehand liggend kan zijn en aan de andere kant er soms een hand vol mogelijkheden zijn om iets in te richten. </p>`,
     eindproduct: ` <p>Het eindresultaat is een moderne, internationale en volledig dynamische website die het CEOCOR-congres helder en professioneel presenteert. Alle content, van sprekers tot programma's en van sponsors tot ticketinformatie, is eenvoudig beheersbaar via WordPress. </p>
     <br>
     <p> Door het gebruik van animaties, SVG-blobs en maatwerk sliders voelt de site levendig en eigentijds aan, zonder de zakelijke uitstraling van een internationaal congres te verliezen. Dankzij de doordachte datastructuur en flexibele componenten is de website bovendien toekomstbestendig en eenvoudig uit te breiden voor volgende edities van het congres. </p>`,
-    eindproduct_img: '',
+    eindproduct_img: '/assets/images/ceocor/mockup.jpg',
     eindproduct_link: 'https://ceocor.pk1.pageking.dev/'
   }
 ]
